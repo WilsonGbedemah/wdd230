@@ -2,23 +2,30 @@
 body {
     text-align: center;
     margin: 0 auto;
+    padding-left: auto;
+    padding-right: auto;
 }
-#header_portal {
+#header_box {
+    background-color: #0b1a31;
     display: flex;
-    flex-direction: row;
     justify-content: center; 
     align-items: center;
-}
-#son {
-    border-radius: 50%;
-    width: 4%;
+    border: 2px solid #b2bec3;
+    border-radius: 10px;
     padding: 1%;
 }
+#son {
+    border-radius: 10%;
+    width: 150px;
+    height: 100%;
+    padding: 1%;
+    align-items: left;
+
+}
 #title_header {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.5vw;
+    font-size: 50px;
     font-weight: normal;
-    color: #2d3436;
+    color: whitesmoke;
 }
 #line {
     background-color: #b2bec3;
@@ -26,43 +33,27 @@ body {
     height: 0.1vh;
     border: 0;
 }
-#banner_section {
+#banner {
     padding-top: 1.5%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0b1a31;
 }
-main {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 5%;
-}
-section {
-    list-style: none;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1%;
-    padding-bottom: 2%;
-}
-.list {
-    border: 1px solid #b2bec3;
-    width: 60%;
-    border-radius: 0.5em;
-    padding: 1%;
-    margin: 0.5%;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#list_link {
+    justify-content: flex-start;
+    align-items: left;
 }
 a {
-    background-color: #1e90ff;
-    color: white;
+    color:blue;
     padding-left: 1%;
     padding-right: 1%;
     font-size: small;
     border-radius: 0.5em;
-    text-decoration: none;
+    text-decoration: underline;
+    align-items: left;
 }
 a:hover {
-    background-color: #5e17eb;
+    background-color: whitesmoke;
 }
 hr {
     background-color: #b2bec3;
@@ -75,11 +66,13 @@ hr {
     color: #2d3436;
 }
 footer {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #5e17eb;
-    color: white;
+    background-color: #0b1a31;
+    color: whitesmoke;
     padding: 5%;
     font-weight: lighter;
+    border: 2px solid #b2bec3;
+    border-radius: 10px;
+    padding: 1%;
 }
 #modify {
     font-style: italic;
