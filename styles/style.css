@@ -19,6 +19,7 @@ body {
     width: 150px;
     height: 100%;
     padding: 1%;
+    padding-left: 5px;
     align-items: left;
 
 }
@@ -34,16 +35,21 @@ body {
     border: 0;
 }
 #banner {
-    padding-top: 1.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-size: 30px;
     font-weight: bolder;
     color: #0b1a31;
+    text-shadow: whitesmoke;
+
 }
-#list_link {
+ul {
     justify-content: flex-start;
     align-items: left;
 }
 a {
+    justify-content: flex-start;
+    align-items: left;
     color:blue;
     padding-left: 1%;
     padding-right: 1%;
