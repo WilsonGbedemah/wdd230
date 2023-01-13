@@ -27,6 +27,7 @@ body {
     font-size: 50px;
     font-weight: normal;
     color: whitesmoke;
+    font-family: 'Arvo', serif;
 }
 #line {
     background-color: #b2bec3;
@@ -37,26 +38,29 @@ body {
 #banner {
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     color: #0b1a31;
     text-shadow: whitesmoke;
+    font-family: 'Sofia Sans', sans-serif;
 
 }
 ul {
     justify-content: flex-start;
     align-items: left;
+    text-align: left;
 }
 a {
     justify-content: flex-start;
     align-items: left;
+    text-align: center;
     color:blue;
     padding-left: 1%;
     padding-right: 1%;
     font-size: small;
     border-radius: 0.5em;
     text-decoration: underline;
-    align-items: left;
+    font-family: 'Roboto', sans-serif;
 }
 a:hover {
     background-color: whitesmoke;
@@ -70,6 +74,7 @@ hr {
 #comment {
     font-style: italic;
     color: #2d3436;
+    font-family: 'Sofia Sans', sans-serif;
 }
 footer {
     background-color: #0b1a31;
@@ -79,6 +84,7 @@ footer {
     border: 2px solid #b2bec3;
     border-radius: 10px;
     padding: 1%;
+    font-family: 'Arvo', serif;
 }
 #modify {
     font-style: italic;
