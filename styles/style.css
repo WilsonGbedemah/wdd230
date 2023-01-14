@@ -29,10 +29,10 @@ body {
     color: whitesmoke;
     font-family: 'Arvo', serif;
 }
-#line {
+.line {
     background-color: #b2bec3;
     width: 100%;
-    height: 0.1vh;
+    height: 0.1vh; 
     border: 0;
 }
 #banner {
