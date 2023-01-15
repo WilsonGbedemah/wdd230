@@ -1,0 +1,32 @@
+@media screen and (max-width: 1500px) {
+    body{
+        align-items: flex-end;
+    }
+    #head{
+        text-align: center;
+        font-family: 'Arvo', serif;;
+        background-color: #0b1a31;
+        margin: 0 auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    div{
+        float: left;
+        width: 32.50%;
+    }
+    main:after {
+        content:"";
+        display: table;
+        clear: both;
+        align-items: center;
+     }
+    h3 {
+        font-size: 25px;
+        text-decoration: none;
+        font-family: 'Arvo', serif;
+        text-align: center;
+        background-color: #0a394e;
+        color: aliceblue;
+    }
+
+}

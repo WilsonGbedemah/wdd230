@@ -1,9 +1,12 @@
-main {
+.main {
     text-align: center;
     margin: 0 auto;
     padding-left: auto;
     padding-right: auto;
     background: whitesmoke;
+    display: block;
+    float: left;
+    padding: 14px 16px;;
 }
 
 a {
@@ -13,29 +16,42 @@ a {
     border-radius: 0.5em;
     text-decoration: underline;
     font-family: 'Roboto', sans-serif;
+    display: block;
+    padding-bottom: 5px;
 }
 a:hover {
     background-color: white;
     color: #0b1a31;
 }
 #screen {
-    width: 25%;
-    height: 80%;
+    width: 70%;
+    height: auto;
     align-items: center;
     padding-bottom: 25px;
     max-width: 100%;
     display: inline-block;
 }
+.head{
+    text-align: center;
+    font-family: 'Arvo', serif;
+    background-color: #0b1a31;
+    margin: auto;
+    padding-left: auto;
+    padding-right: auto;
+    color: aliceblue;
+    padding:1px;
+}
 
-h2 {
-    font-size: 25px;
+h3 {
+    font-size: 30px;
     text-decoration: none;
     font-family: 'Arvo', serif;
     text-align: center;
-    text-overflow: clip;
+    background-color: #0a394e;
+    color: aliceblue;
 }
-h3 {
-    font-size: 15px;
+h4 {
+    font-size: 20px;
     text-decoration: none;
     font-family: 'Arvo', serif;
     text-align: center;
@@ -43,7 +59,7 @@ h3 {
     padding: 1%;
 }
 p {
-    font-size: 10px;
+    font-size: 13px;
     text-decoration: none;
     font-family: 'Roboto', serif;
     text-align: center;
@@ -68,10 +84,10 @@ footer {
     font-weight: lighter;
     text-align: center;
 }
-@media (max-width: 600px) {
-
-}
-
-@media (min-width: 601px) {
-
+div {
+    background-color: beige;
+    padding: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin:5px;
 }
