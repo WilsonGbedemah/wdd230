@@ -19,16 +19,12 @@ a:hover {
     color: #0b1a31;
 }
 #screen {
-    border-radius: 5%;
-    width: 150px;
-    height: 100%;
-    padding: 1%;
+    width: 25%;
+    height: 80%;
     align-items: center;
-    padding-bottom: 20px;
-}
-
-#visual {
-    text-align: center;
+    padding-bottom: 25px;
+    max-width: 100%;
+    display: inline-block;
 }
 
 h2 {
@@ -51,7 +47,8 @@ p {
     text-decoration: none;
     font-family: 'Roboto', serif;
     text-align: center;
-    display: block;
+    display: grid;
+    grid-template-rows: auto;
 
 }
 
@@ -64,9 +61,17 @@ footer {
     border-radius: 10px;
     padding: 1%;
     font-family: 'Arvo', serif;
+    text-align: center;
 }
 #modify {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
+}
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 601px) {
+
 }
