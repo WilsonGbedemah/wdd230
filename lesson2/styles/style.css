@@ -3,10 +3,7 @@
     margin: 0 auto;
     padding-left: auto;
     padding-right: auto;
-    background: whitesmoke;
-    display: block;
-    float: left;
-    padding: 14px 16px;;
+    background: white;
 }
 
 a {
@@ -20,14 +17,13 @@ a {
     padding-bottom: 5px;
 }
 a:hover {
-    background-color: white;
     color: #0b1a31;
 }
 #screen {
-    width: 70%;
+    width: 50%;
     height: auto;
     align-items: center;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     max-width: 100%;
     display: inline-block;
 }
@@ -35,20 +31,26 @@ a:hover {
     text-align: center;
     font-family: 'Arvo', serif;
     background-color: #0b1a31;
-    margin: auto;
     padding-left: auto;
     padding-right: auto;
     color: aliceblue;
-    padding:1px;
+    padding-bottom:5px;
+    padding-top: 3px;
+    margin-top: 1%;
+    border: 2px solid #b2bec3;
+    border-radius: 20px;
+    text-shadow: 1px 1px bisque;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     font-family: 'Arvo', serif;
     text-align: center;
-    background-color: #0a394e;
-    color: aliceblue;
+    color:#0b1a31;
+    margin-top: 5px;
+    padding-top: 5%;
+    text-shadow: 1px 1px 1px black;
 }
 h4 {
     font-size: 20px;
@@ -60,12 +62,11 @@ h4 {
 }
 p {
     font-size: 13px;
-    text-decoration: none;
+    text-decoration: wavy;
     font-family: 'Roboto', serif;
     text-align: center;
-    display: grid;
-    grid-template-rows: auto;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 footer {
@@ -74,10 +75,10 @@ footer {
     padding: 5%;
     font-weight: lighter;
     border: 2px solid #b2bec3;
-    border-radius: 10px;
-    padding: 1%;
+    border-radius: 20px;
     font-family: 'Arvo', serif;
     text-align: center;
+    margin-top: 5%;
 }
 #modify {
     font-style: italic;
@@ -85,9 +86,13 @@ footer {
     text-align: center;
 }
 div {
-    background-color: beige;
-    padding: auto;
+    background-color: bisque;
+    padding-top: auto;
     padding-left: auto;
     padding-right: auto;
-    margin:5px;
+    margin:1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    border: 2px solid #b2bec3;
 }

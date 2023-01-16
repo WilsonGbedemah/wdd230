@@ -1,0 +1,19 @@
+@media screen and (min-width: 401px) {
+    body{
+        align-items: flex-end;
+    }
+    .head{
+        text-align: center;
+        font-family: 'Arvo', serif;;
+        background-color: #0b1a31;
+        margin: 0 auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    
+    h3 {
+        font-size: 30px;
+        color:#0b1a31;
+    }
+
+}

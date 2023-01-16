@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+    body {
+        display: inline;
+    }
+    
+    h3 {
+        font-size: 15px;
+        color:#0b1a31;
+    }
+    div {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
