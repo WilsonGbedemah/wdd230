@@ -15,7 +15,6 @@ body {
     padding: 1%;
 }
 #son {
-    border-radius: 10%;
     width: 150px;
     height: 100%;
     padding: 1%;
@@ -24,7 +23,7 @@ body {
 
 }
 #title_header {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: normal;
     color: whitesmoke;
     font-family: 'Arvo', serif;
@@ -38,7 +37,7 @@ body {
 #banner {
     padding-top: 3%;
     padding-bottom: 3%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     color: #0b1a31;
     text-shadow: whitesmoke;
@@ -82,7 +81,6 @@ footer {
     padding: 5%;
     font-weight: lighter;
     border: 2px solid #b2bec3;
-    border-radius: 10px;
     padding: 1%;
     font-family: 'Arvo', serif;
 }
