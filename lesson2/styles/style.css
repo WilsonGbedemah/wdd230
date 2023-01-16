@@ -7,7 +7,7 @@
 }
 
 a {
-    text-align: center;
+    text-align: left;
     color:blue;
     font-size: small;
     border-radius: 0.5em;
@@ -15,6 +15,7 @@ a {
     font-family: 'Roboto', sans-serif;
     display: block;
     padding-bottom: 5px;
+    padding-left: 5px;
 }
 a:hover {
     color: #0b1a31;
@@ -56,9 +57,10 @@ h4 {
     font-size: 20px;
     text-decoration: none;
     font-family: 'Arvo', serif;
-    text-align: center;
+    text-align: left;
     text-overflow: clip;
     padding: 1%;
+    padding-left: 5px;
 }
 p {
     font-size: 13px;
