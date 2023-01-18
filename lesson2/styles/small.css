@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 32.5) {
     body {
         display: inline;
     }
@@ -14,4 +14,5 @@
         margin-left: 1%;
         margin-right: 1%;
     }
+    
 }

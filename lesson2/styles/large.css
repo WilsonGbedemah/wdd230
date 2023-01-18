@@ -1,8 +1,11 @@
-@media (min-width: 1100px) {
+@media (min-width: 64.1em) {
     body{
     }
     div{
         float: left;
+        width: 30.80%;
+    }
+    .sec{
         width: 30.80%;
     }
     .main:after {
