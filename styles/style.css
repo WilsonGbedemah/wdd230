@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 body {
     text-align: center;
+    align-items: center;
     margin: 0 auto;
     padding-left: auto;
     padding-right: auto;
@@ -42,8 +43,8 @@ body {
     color: #0b1a31;
     text-shadow: whitesmoke;
     font-family: 'Sofia Sans', sans-serif;
-
 }
+
 ul {
     justify-content: flex-start;
     align-items: left;
@@ -51,7 +52,7 @@ ul {
 }
 a {
     justify-content: flex-start;
-    align-items: left;
+    align-items: center;
     text-align: center;
     color:blue;
     padding-left: 1%;
