@@ -52,7 +52,7 @@ ul {
 }
 a {
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     text-align: center;
     color:blue;
     padding-left: 1%;
