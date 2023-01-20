@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: Rubik, Arial, 'Times New Roman';
+}
+
+h1 {
+    color: #69140E;
+}
+
+h2, h3 {
+    color: #F30B0B;
+}
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 2px 10% 2px 10%;
+}
+
+hr {
+    height: 3px;
+    margin: 35px;
+    background: #F30B0B;
+}
+
+header {
+    background-color: #F28123;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+header a {
+    font-size: 1.2em;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #F28123;
+    color: black;
+}
+
+.nav a:hover, header a:hover {
+    background-color: #69140E;
+    color: white;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+section img {
+    max-width: 50%;
+}
+
+table {
+    margin-top: 20px;
+    justify-items: center;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    width: 100%;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+    background-color: #999;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+td {
+    padding: 2%;
+}
+
+.primary {
+    background-color: #C8C8C8;
+}
+
+.secondary {
+    background-color: #F28123;
+}
+
+.accent1 {
+    background-color: #F30B0B;
+}
+
+.accent2 {
+    background-color: #69140E;
+    color: white;
+}
+
+.typography {
+    margin: 50px 50px;
+}
+
+.colored {
+    background-color: #C8C8C8;
+    color: #69140E;
+    padding: 3%;
+}
+
+.banner {
+    background-color: #C8C8C8;
+    padding: 10px;
+}
+
+footer {
+    background-color: #F28123;
+    color: black;
+    text-align: center;
+    padding: 3em;
+    margin: 50px 0px 0px 0px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+

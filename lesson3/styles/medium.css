@@ -1,0 +1,11 @@
+@media only screen and (min-width: 32.5em){
+
+    header {
+        flex-direction: row;
+    }
+    
+    header a {
+        display: flex;
+    }
+    
+    }
