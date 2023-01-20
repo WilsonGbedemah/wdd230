@@ -1,7 +1,7 @@
 @media (min-width: 1100px) {
     body{
     }
-    div{
+    main div{
         float: left;
         width: 30.80%;
     }

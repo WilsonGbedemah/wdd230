@@ -84,9 +84,10 @@ footer {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    background-color: #0b1a31;
+    margin-top: 10px;
+    
 }
-div {
+main div {
     background-color: bisque;
     padding-top: auto;
     padding-left: auto;

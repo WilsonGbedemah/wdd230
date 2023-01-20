@@ -2,7 +2,7 @@
     body{
         align-items: flex-end;
     }
-    div{
+    main div{
         float: left;
         width: 47%;
     }
