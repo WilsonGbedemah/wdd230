@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap');
+
 h1, h2, h3, h4 {
-    font-family: Rubik, Arial, 'Times New Roman';
+    font-family: 'Arvo', serif;
 }
 
 h1 {
-    color: #69140E;
+    color: black;
 }
 
 h2, h3 {
-    color: #F30B0B;
+    color:#003554;
 }
 
 p {
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin: 2px 10% 2px 10%;
 }
@@ -19,11 +21,11 @@ p {
 hr {
     height: 3px;
     margin: 35px;
-    background: #F30B0B;
+    background:#003554;
 }
 
 header {
-    background-color: #F28123;
+    background-color: #003554;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -34,13 +36,13 @@ header a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    background-color: #F28123;
-    color: black;
+    background-color: #003554;
+    color: whitesmoke;
 }
 
 .nav a:hover, header a:hover {
-    background-color: #69140E;
-    color: white;
+    background-color: whitesmoke;
+    color: #003554;
 }
 
 body {
@@ -77,6 +79,7 @@ td {
 
 .primary {
     background-color: #396e94;
+    color: whitesmoke;
 }
 
 .secondary {
@@ -85,34 +88,35 @@ td {
 
 .accent1 {
     background-color: #003554;
+    color: whitesmoke;
 }
 
 .accent2 {
     background-color: #00a6fb;
-    color: white;
+    color: whitesmoke;
 }
 
-.typography {
+.typo {
     margin: 50px 50px;
 }
 
 .colored {
-    background-color: #C8C8C8;
-    color: #69140E;
+    background-color: #e7c24f;
+    color: #396e94;
     padding: 3%;
 }
 
-.banner {
-    background-color: #C8C8C8;
+.name {
+    background-color: whitesmoke;
     padding: 10px;
 }
 
 footer {
-    background-color: #F28123;
-    color: black;
+    background-color: #003554;
+    color: whitesmoke;
     text-align: center;
     padding: 3em;
     margin: 50px 0px 0px 0px;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: 'Arvo', serif;
 }
 
