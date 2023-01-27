@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap');
 nav button{
     margin:.2rem .5vw;
-    background-color: transparent;
+    background-color: #003554;
     border: none;
     font-size: 1rem;
-    color: #555;
+    color: white;
     
 }
 nav{
