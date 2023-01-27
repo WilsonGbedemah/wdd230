@@ -9,7 +9,11 @@ function toggleMenu(){
 
 // This code is the date showing in the header of the website//
     const datefield = document.querySelector(".date");
-    const datefieldUK = document.querySelector("aside");
+    const now = new Date();
+    const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now
+);
+    datefield.innerHTML = `<em>${fulldate}</em>`;
 
 // This code is for the copy right and last modification shown in the website
 let year = document.querySelector("#year");
