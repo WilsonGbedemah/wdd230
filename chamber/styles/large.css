@@ -1,7 +1,38 @@
-@media only screen and (min-width: 64rem){
-
+@media only screen and (min-width: 64rem){   
+        nav button {display: none;}
+    
+        nav ul#primaryNav{
+            display: flex;
+            margin-left: 2vw;
+            border-right: 1px solid rgba(0,0,0,30%);
+        }
+    
+    
+        nav ul li a {
+            border: none;
+            border-right: 1px solid rgba(0,0,0,30%);
+        }
 
     nav ul li a {
         padding: .5rem 1rem;
+ 
+   }
+   section, #footer_box{
+    display: flex;
+    flex-direction: row;
+
+}
+    .info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+    section, #footin{
+        display: flex;
+        flex-direction: row;
+}
+    .end{
+        display: flex;
+        flex-direction:row;
     }
 }

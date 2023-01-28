@@ -1,5 +1,27 @@
-@media only screen and (min-width: 35rem){
+@media only screen and (min-width: 601px){
+   #spotlight_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+   }
    
-   
+    #events{
+        display: block;
+        flex-direction: row;
+    }
+    #weather{
+        display:block;
+    }
+    section, #footer_box{
+        display: flex;
+        flex-direction: row;
+
+    }
     
+    .info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
 }
