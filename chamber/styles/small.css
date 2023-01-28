@@ -47,10 +47,10 @@ nav ul.open {
 	border: 1px solid grey;
 	padding: 0.75rem;
 	background-color: #c0c0c0;
-    display: flex;
     border: 2px solid #b2bec3;
     border-radius: 10px;
-    
+    display: block;
+    width: 100%;
 }
 body {
     text-align: center;
@@ -70,13 +70,20 @@ body {
 }
 .social {
     display: flex;
-    width: 2%;
-    font-size: 100px;
-    text-decoration: none;
     align-items: right;
-    border-radius: 50%;
 }
-.social:hover {
+
+.social a {
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social img{
+    width: 30px;
+    padding-right: 5px;
+    
+}
+
+.social a:hover {
     opacity: 0.7;
 }
 #son {
@@ -89,7 +96,6 @@ body {
 }
 img {
     width: 100px;
-    height: 50%;
     padding: 1%;
     padding-left: 5px;
     align-items: center;
@@ -157,4 +163,12 @@ footer {
     font-style: italic;
     font-weight: lighter;
     margin-top: 10px;
+}
+ #foot_box,#footin {
+    background-color: #0b1a31;
+    color: whitesmoke;
+    padding: 5%;
+    font-weight: lighter;
+    padding: 1%;
+    font-family: 'Arvo', serif;
 }
