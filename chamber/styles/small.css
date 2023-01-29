@@ -23,7 +23,6 @@ img {
 
 }
 
-/*Header Styles*/
 header {
     background-color: #0b1a31;
     display: grid;
@@ -128,15 +127,12 @@ header ul li a {
 #hamburgerBtn.open span:nth-child(2){display: block;}
 
 .date {
-	margin: 0.5rem;
-	border: 1px solid grey;
-	padding: 0.75rem;
-	background-color: #c0c0c0;
+    grid-column: 1/4;
+    background-color: #c0c0c0;
+    color: #0b1a31;
+    padding: 2% 0 2% 0;
     border: 2px solid #b2bec3;
     border-radius: 10px;
-    display: block;
-    max-width: 100%;
-    color: #0b1a31;
 }
 hr{
     background-color: grey;
