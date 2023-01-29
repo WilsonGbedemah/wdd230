@@ -81,8 +81,9 @@ header .company h1 {
     background-color: transparent;
     border: 1px solid #c0c0c0;
     font-size: 1.5rem;
-    margin-top: 3%;
+    margin-top:-2%;;
     color: #c0c0c0;
+    margin-left: 1%;
 }
 
 #primaryNav {
@@ -134,7 +135,8 @@ header ul li a {
     border: 2px solid #b2bec3;
     border-radius: 10px;
     display: block;
-    width: 100%;
+    max-width: 100%;
+    color: #0b1a31;
 }
 hr{
     background-color: grey;
@@ -155,19 +157,19 @@ main section, main div {
 main section {
     background-color: #c0c0c0;
     height: 10rem;
-    border: 2px solid #0b1a31;
     border-radius: 10px;
 }
 
 .spotlight {
     background-color: #c0c0c0;
     padding: 2%;
-    border: 2px solid #003554;
     border-radius: 10px;
 }
 
 .spotlight section {
     margin: 2px;
+    border: 2px solid #003554;
+    border-radius: 10px;
 }
 
 .large-only, .medium-display {
@@ -204,11 +206,6 @@ footer {
 
 .section2 p {
     display: block;
-}
-
-.author {
-    font-weight: 700;
-    font-size: 130%;
 }
 
 hr {
