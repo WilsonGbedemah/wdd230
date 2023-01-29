@@ -35,7 +35,7 @@ header {
     border-radius: 10px;
 }
 
-/*section 1*/
+
 .brand {
     display: flex;
     align-items: center;
@@ -55,7 +55,6 @@ header .company h1 {
     margin-bottom: -5px;
 }
 
-/*section 2*/
 .navigation {
     display: flex;
     justify-content: flex-end;
@@ -127,8 +126,6 @@ header ul li a {
 #hamburgerBtn.open span:nth-child(1){display: none;}
 #hamburgerBtn.open span:nth-child(2){display: block;}
 
-
-/*current time*/
 .date {
 	margin: 0.5rem;
 	border: 1px solid grey;
@@ -198,6 +195,7 @@ footer {
 
 .location {
     text-decoration: none;
+    font-weight: 700;
 }
 
 .section2 {
