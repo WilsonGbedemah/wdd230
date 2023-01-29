@@ -22,7 +22,7 @@
             border: 0;
         }
         
-        .navigation {
+        .nav {
             grid-column: 3/4;
         }
         
@@ -38,7 +38,7 @@
             width: 100%;
         }
         
-        #hero-banner {
+        #hero {
             grid-column: 2/3;
             grid-row: 1/3;
         }

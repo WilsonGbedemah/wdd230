@@ -35,7 +35,7 @@ header {
 }
 
 
-.brand {
+.design {
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,7 @@ header .company h1 {
     margin-bottom: -5px;
 }
 
-.navigation {
+.nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
