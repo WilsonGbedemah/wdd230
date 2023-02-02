@@ -79,6 +79,14 @@ section img {
     max-width: 50%;
 }
 
+#persona {
+    max-width: 100%;
+    width: 150px;
+    padding: 1%;
+    padding-left: 5px;
+    align-items: center;
+}
+
 table {
     margin-top: 20px;
     justify-items: center;
