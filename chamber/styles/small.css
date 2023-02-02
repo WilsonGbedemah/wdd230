@@ -95,6 +95,8 @@ header .company h1 {
 .active {
     background-color: #c0c0c0;
     color: white;
+    border: 2px solid #b2bec3;
+    border-radius: 10px;
 }
 
 header ul {display: none;}
@@ -119,6 +121,8 @@ header ul li a {
 #primaryNav li a:hover {
     background-color: #ffe5b4;
     color: #0b1a31;
+    border: 2px solid #b2bec3;
+    border-radius: 10px;
 }
 #hamburgerBtn span:nth-child(1){display: block;}
 #hamburgerBtn span:nth-child(2){display: none;}
@@ -127,12 +131,14 @@ header ul li a {
 #hamburgerBtn.open span:nth-child(2){display: block;}
 
 .date {
+    display: grid;
     grid-column: 1/4;
     background-color: #c0c0c0;
     color: #0b1a31;
     padding: 2% 0 2% 0;
     border: 2px solid #b2bec3;
     border-radius: 10px;
+    margin-top: 10px;
 }
 hr{
     background-color: grey;
