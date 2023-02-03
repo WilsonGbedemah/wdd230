@@ -10,7 +10,7 @@ function toggleMenu(){
 // This code is the date showing in the header of the website//
     const datefield = document.querySelector(".date");
     const now = new Date();
-    const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+    const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 	now
 );
     datefield.innerHTML = `<em>${fulldate}</em>`;
