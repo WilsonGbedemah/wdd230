@@ -157,9 +157,17 @@ main section, main div {
 }
 
 main section {
-    background-color: #c0c0c0;
-    height: 10rem;
+    background-color: #396e94;
+    height: 15rem;
     border-radius: 10px;
+}
+section .weather{
+    width: 10 rem;
+}
+ #hero-imag {
+    width: fit-content;
+    height: 100%;
+
 }
 
 .spotlight {
