@@ -1,4 +1,4 @@
-// this code is for the toogling of the harmburger menue in the small and medium view
+// Harmburger menu JS
 function toggleMenu(){ 
     document.getElementById('primaryNav').classList.toggle("open");
     document.getElementById('hamburgerBtn').classList.toggle("open")
@@ -7,15 +7,7 @@ function toggleMenu(){
     const x = document.getElementById('hamburgerBtn')
     x.onclick = toggleMenu
 
-// This si the code for the banner//
-    document.addEventListener("DOMContentLoaded", () => {
-    const day = new Date().getDay();
-  
-    if(day === 1 || day === 2){
-      document.getElementById("banner").classList.remove('hidden');
-    }
-})
-// This code is the date showing in the header of the website//
+// Date JS//
     const datefield = document.querySelector(".date");
     const now = new Date();
     const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
@@ -23,7 +15,7 @@ function toggleMenu(){
 );
     datefield.innerHTML = `<em>${fulldate}</em>`;
 
-// This code is for the copy right and last modification shown in the website
+// Last modification JS
 let year = document.querySelector("#year");
 const currentYear = new Date().getFullYear();
 year.textContent = currentYear;
