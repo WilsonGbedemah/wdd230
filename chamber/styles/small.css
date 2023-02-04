@@ -4,6 +4,7 @@ h2,
 h3,
 h4 {
   font-family: 'Arvo', serif;
+  margin: 5px 5px 5px 5px;
 }
 
 p,
@@ -185,7 +186,9 @@ main section {
 section .weather {
   width: 10 rem;
 }
-
+.event, .weather, .news, .spotlight{
+  padding: 5%;
+}
 main section.hero {
   background-color: transparent;
 }
@@ -210,6 +213,7 @@ main section h2{
   right: 25%;
   width: 50%;
   z-index: 1;
+  margin-top: 5%;
   text-align: center;
   font-family: 'Arvo', serif;
 }
@@ -219,6 +223,7 @@ main section h2{
   right: 25%;
   width: 50%;
   top: 50%;
+  z-index: 1;
   background-color: #FF7D00;
   padding: 5px;
   border-radius: 10px;
