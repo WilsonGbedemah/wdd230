@@ -7,6 +7,14 @@ function toggleMenu(){
     const x = document.getElementById('hamburgerBtn')
     x.onclick = toggleMenu
 
+// This si the code for the banner//
+    document.addEventListener("DOMContentLoaded", () => {
+    const day = new Date().getDay();
+  
+    if(day === 1 || day === 2){
+      document.getElementById("banner").classList.remove('hidden');
+    }
+})
 // This code is the date showing in the header of the website//
     const datefield = document.querySelector(".date");
     const now = new Date();
