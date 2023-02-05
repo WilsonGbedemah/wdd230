@@ -12,15 +12,21 @@ function toggleMenu(){
     const now = new Date();
     const fulldate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 	now
-);
-    datefield.innerHTML = `<em>${fulldate}</em>`;
+);datefield.innerHTML = `<em>${fulldate}</em>`;
 
 // Last modification JS
-let year = document.querySelector("#year");
-const currentYear = new Date().getFullYear();
-year.textContent = currentYear;
-let modify = document.querySelector("#lastmodified");
-const currentTime=new Date(document.lastModified);
-modify.textContent = document.lastModified;
+const year = document.querySelector("#year");
+year.textContent = new Date().getFullYear();
+document.getElementById("lastmodified").textContent = document.lastModified
+
+// Banner JS
+const banner = document.querySelector(".banner");
+//using the now variable that holds the current date I use getDay() to get the day of the week
+const dayOfWeek = now.getDay();
+if (dayOfWeek == 1 || dayOfWeek == 2){
+    banner.style.display = "block";
+}else{
+    banner.style.display= "none";
+}
 
 
