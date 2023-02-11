@@ -1,4 +1,4 @@
-@media only screen and (min-width: 58em) {
+@media only screen and (min-width: 64em) {
   /*header*/
   header {
     grid-template-columns: 3fr 4fr 1fr;

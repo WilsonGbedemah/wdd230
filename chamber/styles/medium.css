@@ -21,6 +21,11 @@
     grid-row: 6/7;
     grid-column: 2/3;
   }
+  img {
+    max-width: 100%;
+    align-items: center;
+    margin-bottom: 5%;
+  }
 
   .spotlight {
     display: flex;
