@@ -104,9 +104,12 @@ header ul {
 }
 header ul.open {
   display: block;
-  grid-column: 1/4;
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 2%;
+}
+nav{
+  display: grid;
+  grid-column: 1/4;
 }
 
 header ul li a {
