@@ -23,6 +23,9 @@ img {
   align-items: center;
   margin-top: 0;
 }
+img.icon{
+  max-width: 30%;
+}
 
 header {
   background-color: #0b1a31;
