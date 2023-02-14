@@ -79,7 +79,7 @@ header .company h1 {
 #hamburgerBtn {
   background-color: transparent;
   border: 1px solid #c0c0c0;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-top: -2%;
   color: #c0c0c0;
   margin-left: 1%;
@@ -87,7 +87,7 @@ header .company h1 {
 
 #primaryNav {
   list-style-type: none;
-  margin: 0.2rem 2vw;
+  margin: 0.2em 2vw;
   padding: 0;
   font-weight: 800;
 }
@@ -122,7 +122,7 @@ header ul li a {
 
 #primaryNav li a {
   display: block;
-  padding: 0.8rem 2vw;
+  padding: 0.8em 2vw;
   text-decoration: none;
   border: 2px solid #0b1a31;
 }
@@ -171,7 +171,7 @@ main {
 
 main section,
 main div {
-  margin: 1.5rem;
+  margin: 1.5em;
 }
 main h2{
   color: #FF7D00;
@@ -188,7 +188,7 @@ main section {
   color: whitesmoke;
 }
 section .weather {
-  width: 10 rem;
+  width: 10em;
 }
 
 main section.hero {
