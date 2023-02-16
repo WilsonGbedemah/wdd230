@@ -31,7 +31,7 @@ header {
   background-color: #0b1a31;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: 5%;
+  margin-bottom: 3px;
   padding: 0 2% 3% 2%;
   color: whitesmoke;
   border: 2px solid #b2bec3;
@@ -169,12 +169,12 @@ hr {
 main {
   max-width: 90%;
   margin-left: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10px;
 }
 
 main section,
 main div {
-  margin: 1.5em;
+  margin: 5px;
 }
 main h2{
   color: #FF7D00;
