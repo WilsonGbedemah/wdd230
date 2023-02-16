@@ -174,7 +174,7 @@ main {
 
 main section,
 main div {
-  margin: 5px;
+  margin: 10px;
 }
 main h2{
   color: #FF7D00;
@@ -187,11 +187,9 @@ main h2{
 
 main section {
   background-color: #001524;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
   color: whitesmoke;
-}
-section .weather {
-  width: 10em;
 }
 
 main section.hero {
@@ -224,6 +222,34 @@ main section.hero {
   box-shadow: 0 0 10px #010405;
   color: #0b1a31;
 }
+.weather img{
+  width:15%;
+  align-self: center;
+}
+.weather div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather section p{
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+.weather{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.weather h3{
+  font-size: 1.2em;
+  color: #FF7D00;
+  text-shadow: 0 0 5px #FF7D00;
+}
+
 picture {
   height: 100%;
   width: 100%;
@@ -253,6 +279,7 @@ picture {
 .spotlight section {
   margin: 2px;
   border: 2px solid #003554;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
 }
 .banner {
@@ -285,7 +312,7 @@ footer {
   align-items: center;
   font-size: 70%;
   color: whitesmoke;
-  border: 2px solid #b2bec3;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
 }
 
