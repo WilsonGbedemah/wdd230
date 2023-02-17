@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce for Felix WIlson GBedemah in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Chamber Of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner" style="display:none;">
+        <div class="banner-cont">
+            <div class="banner-info">
+            <strong>"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</strong> 
+        </div>
+        </div>
+    </div>
+    <header>
+    <section class="design">
+        <a class="logo-link" href="https://wilsongbedemah.github.io/wdd230/chamber/">
+        <img src="images/logo_transparent.webp" alt="Chamber Logo">
+        </a>
+    <section class="company">
+        <h1>Titans</h1>
+        <h2>Chamber of Commerce</h2>
+    </section>
+</section>
+<div class="nav">
+    <div class="social">
+    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="Loginpage">
+    <img src="images/facebook.png" alt="Facebook Icon">
+    </a>
+    <a href="https://www.linkedin.com/home" target="LinkedIn homepage">
+    <img src="images/linkedin.png" alt="Linkedin Icon">
+    </a>
+</div>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+</div>
+<nav>
+    <ul id="primaryNav">
+        <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/chamber/">Home</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/">Discover</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/">Directory</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/">Join</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/">Contact</a></li> 
+    </ul>
+</nav>   
+<span class="date"></span>
+</header>
+<main class="large-grid">
+    <section class="hero">
+        <h2>Welcome to the Titans</h2>
+        <picture>
+            <source srcset="images/wdd230-orgsmall.jpg" media="(max-width:34.99em)">
+            <source srcset="images/wdd230-orgmedium.jpg" media="(min-width:35em) and (max-width:57.99em)">
+            <img src="images/wdd230-orglarge.jpg" alt="Hero image">
+        </picture>
+        <h3>Join the Titans</h3>
+    </section>
+    <section class="event">
+        <h2>Ribbon Cutting</h2>
+        <h3>💼 Chamber's Office</h3>
+        <p>Join us for the grand opening of the Chamber's office, Thursday at 1:00pm. Refreshments and lunch will be served after the ceremony. Thank you for you contributions to our success.</p>
+    </section>
+    <section class="weather">
+        <h2>Weather</h2>
+        <div>
+        <img class="icon" src="images/sun.png" alt="weather icon">
+        <p><span id="temperature">30</span>℉ </p>
+    </div>
+    <h3>Sunny</h3>
+<hr>
+<p>Wind Speed: <span id="windSpeed">2.5</span>m/h</p>
+<p>Wind Chill: <span id="windChill">N/A</span></p>
+    </section>
+    <section class="news">
+        <h2>News Release</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </section>
+        <div class="spotlight">
+    <section>
+        <h2>Gateway Deliveries</h2>
+        <img class="icon" src="images/box-truck.png" alt="transport">
+        <p>"We will get it there for you"</p>
+        <hr>
+        <p>hello@gatewaydeliveries.com</p>
+        <p>+(233) 555-457-576</p>
+
+    </section>
+    <section>
+        <h2>Titans Skill</h2>
+        <img class="icon" src="images/skills.png" alt="Skills">
+        <p>"We train you for good"</p>
+        <hr>
+        <p>contact@titanskill.com</p>
+        <p>+(233) 505-765-543</p>
+    </section>
+    <section class="large-only">
+        <h2>Bersah Fashion Studio</h2>
+        <img class="icon" src="images/wedding-suit.png" alt="Fashion">
+        <p>"All we do is make you look beautiful"</p>
+        <hr>
+        <p>contact@bersahfashion.com</p>
+        <p>+(233) 599-237-876</p>
+    </section>
+    </div>
+    <section class="medium-display" id="join">
+        <h2>Join us!</h2>
+        <p>Discover how to join the chamber and how it will benefit your organization</p>
+    </section>
+</main>
+<footer>
+<section class="section1">
+    <a class="logo-link" href="https://wilsongbedemah.github.io/wdd230/chamber/">
+        <img src="images/logo_transparent.webp" alt="Chamber Logo">
+    </a>
+    <section class="info">
+        <h2>Titans Chamber of Commerce</h2>
+        <p>3 Bank Road, Nsawam, Ghana</p>
+    </section>
+</section>
+    <div>
+    <p>info@Titanscc.org</p>
+    <p>+(233) 556-427-542</p>
+    <a class="location" href="https://satellites.pro/Google_plan/Nsawam_map.Eastern.Ghana">
+    <img class="map" src="images/map.png" alt="map">
+    </a>
+    </div>
+    <hr>
+    <div class="section2">
+<section>
+    <p>©<span id="year"></span> Titans Chamber</p>
+    <h3>Felix W. Gbedemah</h3>
+    <p>WDD 230 Project</p>
+</section>
+    <p>Last Modification: <span id="lastmodified"></span></p>
+    </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
+
