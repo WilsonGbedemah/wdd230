@@ -109,7 +109,7 @@ td {
 }
 
 .primary {
-    background-color: #396e94;
+    background-color: #0b1a31;
     color: whitesmoke;
 }
 
@@ -118,12 +118,12 @@ td {
 }
 
 .accent1 {
-    background-color: #003554;
+    background-color: #001524;
     color: whitesmoke;
 }
 
 .accent2 {
-    background-color: #00a6fb;
+    background-color: #FF7D00;
     color: whitesmoke;
 }
 
@@ -132,8 +132,8 @@ td {
 }
 
 .colored {
-    background-color: #c0c0c0;
-    color: #003554;
+    background-color:#001524 ;
+    color: whitesmoke;
     padding: 3%;
 }
 

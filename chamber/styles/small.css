@@ -20,17 +20,18 @@ body {
 
 img {
   max-width: 100%;
-  width: 120px;
-  padding: 1%;
-  padding-left: 5px;
   align-items: center;
+  margin-top: auto;
+}
+img.icon{
+  max-width: 30%;
 }
 
 header {
   background-color: #0b1a31;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: 5%;
+  margin-bottom: 3px;
   padding: 0 2% 3% 2%;
   color: whitesmoke;
   border: 2px solid #b2bec3;
@@ -81,7 +82,7 @@ header .company h1 {
 #hamburgerBtn {
   background-color: transparent;
   border: 1px solid #c0c0c0;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin-top: -2%;
   color: #c0c0c0;
   margin-left: 1%;
@@ -89,7 +90,7 @@ header .company h1 {
 
 #primaryNav {
   list-style-type: none;
-  margin: 0.2rem 2vw;
+  margin: 0.2em 2vw;
   padding: 0;
   font-weight: 800;
 }
@@ -106,9 +107,12 @@ header ul {
 }
 header ul.open {
   display: block;
-  grid-column: 1/4;
   border-bottom: 1px solid #c0c0c0;
   margin-bottom: 2%;
+}
+nav{
+  display: grid;
+  grid-column: 1/4;
 }
 
 header ul li a {
@@ -121,7 +125,7 @@ header ul li a {
 
 #primaryNav li a {
   display: block;
-  padding: 0.8rem 2vw;
+  padding: 0.8em 2vw;
   text-decoration: none;
   border: 2px solid #0b1a31;
 }
@@ -165,12 +169,12 @@ hr {
 main {
   max-width: 90%;
   margin-left: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10px;
 }
 
 main section,
 main div {
-  margin: 1.5rem;
+  margin: 10px;
 }
 main h2{
   color: #FF7D00;
@@ -183,16 +187,16 @@ main h2{
 
 main section {
   background-color: #001524;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
   color: whitesmoke;
-}
-section .weather {
-  width: 10 rem;
 }
 
 main section.hero {
   background-color: transparent;
   position: relative;
+  padding: 0;
+  margin: 0;
 }
 
 .hero h2 {
@@ -218,7 +222,35 @@ main section.hero {
   box-shadow: 0 0 10px #010405;
   color: #0b1a31;
 }
-#hero-imag {
+.weather img{
+  width:15%;
+  align-self: center;
+}
+.weather div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.weather section p{
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+.weather{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.weather h3{
+  font-size: 1.2em;
+  color: #FF7D00;
+  text-shadow: 0 0 5px #FF7D00;
+}
+
+picture {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -247,6 +279,7 @@ main section.hero {
 .spotlight section {
   margin: 2px;
   border: 2px solid #003554;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
 }
 .banner {
@@ -279,7 +312,7 @@ footer {
   align-items: center;
   font-size: 70%;
   color: whitesmoke;
-  border: 2px solid #b2bec3;
+  box-shadow: 0 0 10px #010405;
   border-radius: 10px;
 }
 
