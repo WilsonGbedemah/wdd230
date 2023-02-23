@@ -29,7 +29,7 @@
   }
 
   /*main*/
-  main {
+  main.large-grid{
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
@@ -37,7 +37,6 @@
 
   main section,
   main div {
-    height: 100%;
     width: 100%;
   }
 

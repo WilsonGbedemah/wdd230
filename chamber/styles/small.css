@@ -373,7 +373,7 @@ img{
   width:100%;
 }
 
- img:hover {
+ .Discover-holder img:hover {
   transform: scale(1.1);
   padding-top: auto;
   transition: 1s;
