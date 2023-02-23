@@ -27,3 +27,21 @@ if ("IntersectionObserver" in window) {
     });
   }
   
+  //Amount of Time in days between user//
+  const daysDifference = (startDate, endDate) => {
+    const difference = endDate.getTime() - startDate.getTime();
+    const days = Math.floor(difference / (1000 * 3600 * 24));
+    return days;
+  }
+  
+  document.addEventListener("DOMContentLoaded", ()=>{
+    const lastVisit = localStorage.getItem('@last-visit');
+    if(!lastVisit){
+      localStorage.setItem('@last-visit', new Date().toDateString());
+      document.getElementById('last-visit').innerHTML = `Welcome!`
+    } else {
+      const days = daysDifference(new Date(lastVisit), new Date());
+      document.getElementById('last-visit').innerHTML = `Welcome Back! Last visited: ${days === 0 ? "Today.": `${days} days ago.`}`
+      localStorage.setItem('@last-visit', new Date().toDateString());
+    }
+  });

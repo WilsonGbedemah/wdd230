@@ -347,7 +347,17 @@ footer {
 hr {
   max-width: 100%;
 }
+
+
 /* discover styling */
+main.Discover-holder h2{
+  text-align:left;
+}
+#last-visit{
+  text-align: left;
+  color: #FF7D00;
+  text-shadow: 0 0 2px #FF7D00;
+}
 
 
 .description{
@@ -367,6 +377,10 @@ hr {
   color: #001524;
   border-radius: 10px;
   
+}
+.label{
+  font-weight: 900;
+  font-style: italic;
 }
 
 img{
