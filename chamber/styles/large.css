@@ -50,9 +50,14 @@
     grid-row: 1/2;
     margin-right: 0;
   }
+  .event-2{
+    display:grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
 
   .weather {
-    grid-column: 1/2;
+    grid-column: 2/3;
     grid-row: 2/3;
     margin-left: auto;
     margin-right:auto;
@@ -96,4 +101,39 @@
     justify-content: center;
     gap: 5px;
   }
+
+  /**Discover styling**/
+
+  main.Discover-holder{
+    max-width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px; 
+    align-items: center; 
+  }
+  main.Discover-holder section{
+    display: flex;
+    flex-direction: row;
+  }
+  .description{
+    display: block;
+    align-items: center;
+  }
+  .talk{
+    display: block;
+    align-items: center;
+  }
+  main section h2{
+    text-align: center;
+  }
+  main section picture.myphoto{
+    width: 100%;
+    justify-content: center;
+  }
+  main section picture.myphoto img{
+    width: 100%;
+  }
+ 
 }
+
+  
+ 

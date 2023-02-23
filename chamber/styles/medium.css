@@ -33,6 +33,9 @@
     justify-content: center;
     max-width: 100%;
   }
+  .event-2{
+    display: none;
+  }
 
   .spotlight section {
     margin: 0.5%;
