@@ -17,7 +17,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     });
-//Loop through each img to check status and load if necessary//
+/*Loop through each img to check status and load if necessary*/
     imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
@@ -27,21 +27,24 @@ if ("IntersectionObserver" in window) {
     });
   }
   
-  //Amount of Time in days between user//
-  const daysDifference = (startDate, endDate) => {
-    const difference = endDate.getTime() - startDate.getTime();
-    const days = Math.floor(difference / (1000 * 3600 * 24));
-    return days;
-  }
-  
-  document.addEventListener("DOMContentLoaded", ()=>{
-    const lastVisit = localStorage.getItem('@last-visit');
-    if(!lastVisit){
-      localStorage.setItem('@last-visit', new Date().toDateString());
-      document.getElementById('last-visit').innerHTML = `Welcome!`
-    } else {
-      const days = daysDifference(new Date(lastVisit), new Date());
-      document.getElementById('last-visit').innerHTML = `Welcome Back! Last visited: ${days === 0 ? "Today.": `${days} days ago.`}`
-      localStorage.setItem('@last-visit', new Date().toDateString());
+  /*Number of User Visits*/
+let daysBetweenVisits = Number(window.localStorage.getItem("last-visit-ls"));
+
+let timeStamp = Date.now();
+let findDaysBetween = timeStamp;
+
+if (daysBetweenVisits !== 0){
+    findDaysBetween -= daysBetweenVisits;
+    findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
+    if (findDaysBetween < 1){
+        document.getElementById("daysBetweenVisits").innerHTML = `No days have passed since your last visit`;
     }
-  });
+    else{
+        document.getElementById("daysBetweenVisits").innerHTML = `It has been ${findDaysBetween} days since your last visit`;
+    }
+}
+else {
+    document.getElementById("daysBetweenVisits").innerHTML = "Join us again soon!";
+}
+
+localStorage.setItem("last-visit-ls", timeStamp)
