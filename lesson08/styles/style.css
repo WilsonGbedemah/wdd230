@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap");
+body{
+    margin: 0 auto;
+    font-family: 'Arvo', serif;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+table{
+    border-collapse:collapse;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0px auto;
+}
 th{
     background-color: #001524;
+    color: #FF7D00;
+    text-shadow: 0 0 1.5px #FF7D00;
+    margin: 10%;
+    padding: 10px 10px 10px 10px;
+    font-size:25px;
+    font-weight: 500;
+}
+td{
+    margin: 10%;
+    padding: 10px 10px 10px 10px;
+    background-color: #FF7D00;
+    color: #001524;
+    text-shadow: 0 0 1.5px #001524;
+    font-weight: 500;
+}
+caption{
+    caption-side: bottom;
+    margin-top: 20px;
+    font-family: 'Arvo', serif;
+    font-size: 15px;
 }
