@@ -132,7 +132,14 @@
   main section picture.myphoto img{
     width: 100%;
   }
- 
+
+  /**Join Styling**/
+  main.join-container{
+    max-width: 80%;
+    margin-left: 6%;
+    margin-bottom: 10px; 
+    align-items: center; 
+  }
 }
 
   

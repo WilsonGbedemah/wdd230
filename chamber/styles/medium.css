@@ -86,4 +86,10 @@
     width: 100%;
   }
   
+   /**Join Styling**/
+   main.join-container{
+    max-width: 90%;
+    margin-bottom: 10px; 
+    align-items: center; 
+  }
 }

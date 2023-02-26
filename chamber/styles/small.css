@@ -410,3 +410,155 @@ main section.Ghana h2{
   color:#001524;
 }
 
+
+
+/**Join Styling**/
+main.join-container{
+  max-width: 80%;
+  margin-bottom: 10px;
+  
+}
+main.join-container h2{
+  text-align:center;
+  margin: 10px;
+  padding: 10px;
+  color: #001524;
+}
+.join{
+  padding: 2rem;
+  width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: #001524;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+form label input{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #FFF;
+  background-color: #c0c0c0;
+  border-radius: 1rem;
+}
+
+form label input:focus{
+  outline: none;
+  border: 1px solid #b79e38;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  color: #FF7D00;
+  text-align: left;
+}
+
+::placeholder {
+  color: #03253d;
+}
+
+form label select{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #FFF;
+  color: #001524;
+  font-weight: bold;
+  background-color:#c0c0c0;
+  border-radius: 1rem;
+  outline: none;
+}
+
+form label textarea{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #001524;
+  background-color: #c0c0c0;
+  color: #001524;
+  border-radius: 1rem;
+}
+.btn{
+  background-color: #FF7D00;
+  padding: 10px;
+  margin: 5%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #010405;
+  color:#001524;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#member-ban{
+  visibility: hidden;
+  height: 1px;
+  margin:0;
+}
+
+#member_lev{
+  font-size: 2rem;
+  padding: 1rem;
+  color: #001524;
+  border-bottom: 2px solid #46380055;
+  margin-bottom: 3rem;
+}
+
+#price{
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 2rem;
+  background-color:#c0c0c0;
+  color: #001524;
+  border-radius: 4rem;
+  margin-bottom: 2rem;
+}
+
+.benefit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.check{
+  font-size: 2rem;
+  color: #463800;
+}
+
+.x{
+  font-size: 2rem;
+  color: #46380055;
+}
+
+#thankyou-box{
+  padding: 2rem;
+  font-weight: bolder;
+  font-size: 7rem;
+  color:#463800;
+  border: 0.75rem solid #463800;
+  width: 25%;
+  margin: 4rem auto;
+}
+
+.thankyou-container{
+  text-align: center;
+  font-weight: bolder;
+  color: #463800;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.thankyou-container p{
+  font-size: 18px;
+}

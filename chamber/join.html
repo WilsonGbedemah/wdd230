@@ -57,43 +57,46 @@
 </header>
 <main class="join-container">
 <h2> Complete to Join Us!</h2>
-<div class="join"></div>
+<div class="join">
 <form action="https://wilsongbedemah.github.io/wdd230/chamber/thankyou.html" method="get" id="joinForm">
 
-    <label class="info">First name*:</label><br><input type="text"  name="fname" required=""><br>
+    <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
 
-    <label class="info">Last name*:</label><br><input type="text" name="lname" required=""><br>
+    <label class="info">Last name*<input type="text" name="lname" required=""></label><br>
 
-    <label class="info"> Position Title:</label><br><input type="text" name="title" pattern="[A-Za-z\-\s]{7,}" title="should have, minimum 7 characters, only letters, only - and space are allowed">
-</label>><br>
+    <label class="top">Position Title<input type="text" name="title" pattern=""></label>
 
-    <label class="info">Email*:</label><br><input type="email" name="email" placeholder="alphajones@gmail.com" required=""><br>
+    <label class="info">Email*:<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
 
-    <label class="info">Cell Phone Number*:</label><br><input type="tel" name="phone" required=""><br>
+    <label class="info">Cell Phone Number*<input type="tel" name="phone" required=""></label><br>
 
-    <label class="info">Business name/title*:<br><input type="text" name="title" required=""></label><br>
+    <label class="info">Business name/title*<br><input type="text" name="title" required=""></label><br>
 
-    <input type="radio"  name="member_level" value="yes"><label class="lev"> NP Membership is for non profit organization and there is no fee.</label><br>
+    <label for="membershipLevel">
+        Membership Level*
+        <select name="membershipLevel" id="membershipLevel" required="">
+          <option value="" disabled="" selected="">Choose Membership</option>
+          <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
+          <option value="bronze">Bronze Membership</option>
+          <option value="silver">Silver Membership</option>
+          <option value="gold">Gold Membership</option>
+        </select>
+      </label>
+      <label>
+        Business Description
+        <textarea name="businessDescription" cols="30" rows="10"></textarea>
+      </label>
 
-    <input type="radio"  name="member_level" value="yes"><label class="lev"> Bronze Membership</label><br>
-
-    <input type="radio"  name="member_level" value="yes"><label class="lev"> Silver Membership</label><br>
-
-    <input type="radio"  name="member_level" value="yes"><label class="lev"> Gold Membership</label><br>
-
-    <label class="description" cols="30" rows="10">Describe Your Business:</label><textarea name="description"></textarea>
-
-<input type="hidden" name="hidefield" value="Current date and time"><br>
-
-<input class="submitBtn" type="submit" value="Submit Application">
-
-</fieldset>
+      <input type="time" name="date" hidden="">
+      <input type="submit" value="Submit Application" class="btn">
 </form>
-<div id="membership-banner" class="hidden">  
-    <span id="m-level">LEVEL</span>
-    <span id="pricing">$ x.xx</span>
-    <div id="benefit-listing"></div>
 </div>
+<div id="member-ban" class="hidden">  
+    <span id="member_lev">LeveL</span>
+    <span id="price">$ x.xx</span>
+    <div id="benefits">
+    </div>
+  </div>
 </div>
 </main>
     
@@ -125,7 +128,8 @@
     </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/membership.js"></script>
+    
 </body>
 </html>
 
