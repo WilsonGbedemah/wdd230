@@ -9,16 +9,21 @@ body{
 table{
     border-collapse:collapse;
     border: 2px solid rgb(0, 0, 0);
-    margin: 0px auto;
+    margin: 5px auto;
 }
 th{
     background-color: #001524;
     color: #FF7D00;
-    text-shadow: 0 0 1.5px #FF7D00;
     margin: 10%;
-    padding: 10px 10px 10px 10px;
-    font-size:25px;
+    font-size: larger;
     font-weight: 500;
+}
+.empty, .tab{
+    background-color: rgb(0, 0, 0);
+    color:#FF7D00;
+    border: none;
+    padding: 15px;
+    font-size: 22px;
 }
 td{
     margin: 10%;
@@ -28,9 +33,18 @@ td{
     text-shadow: 0 0 1.5px #001524;
     font-weight: 500;
 }
+th,td {
+    border: 1px solid#000;
+    padding: 20px;
+    text-align: center;
+}
 caption{
     caption-side: bottom;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Arvo', serif;
     font-size: 15px;
+    padding: 10px;
+}
+tbody tr:nth-child(2) {
+    background-color: rgba(155, 18, 18, 0.2);
 }
