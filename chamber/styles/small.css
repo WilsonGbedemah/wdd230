@@ -433,6 +433,7 @@ form{
   display: flex;
   flex-direction: column;
   background-color: #001524;
+  box-shadow:0 0 5px #FF7D00;
   padding: 4rem;
   border-radius: 1rem;
 }
@@ -491,74 +492,4 @@ form label textarea{
   color:#001524;
   font-size: 25px;
   font-weight: 700;
-}
-
-.flex-box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#member-ban{
-  visibility: hidden;
-  height: 1px;
-  margin:0;
-}
-
-#member_lev{
-  font-size: 2rem;
-  padding: 1rem;
-  color: #001524;
-  border-bottom: 2px solid #46380055;
-  margin-bottom: 3rem;
-}
-
-#price{
-  font-size: 3rem;
-  font-weight: bolder;
-  padding: 2rem;
-  background-color:#c0c0c0;
-  color: #001524;
-  border-radius: 4rem;
-  margin-bottom: 2rem;
-}
-
-.benefit{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
-.check{
-  font-size: 2rem;
-  color: #463800;
-}
-
-.x{
-  font-size: 2rem;
-  color: #46380055;
-}
-
-#thankyou-box{
-  padding: 2rem;
-  font-weight: bolder;
-  font-size: 7rem;
-  color:#463800;
-  border: 0.75rem solid #463800;
-  width: 25%;
-  margin: 4rem auto;
-}
-
-.thankyou-container{
-  text-align: center;
-  font-weight: bolder;
-  color: #463800;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
-}
-
-.thankyou-container p{
-  font-size: 18px;
 }
