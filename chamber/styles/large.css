@@ -128,6 +128,7 @@
   main section picture.myphoto{
     width: 100%;
     justify-content: center;
+    margin: 10px;
   }
   main section picture.myphoto img{
     width: 100%;

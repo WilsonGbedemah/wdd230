@@ -28,7 +28,6 @@ th{
 td{
     margin: 10%;
     padding: 10px 10px 10px 10px;
-    background-color: #FF7D00;
     color: #001524;
     text-shadow: 0 0 1.5px #001524;
     font-weight: 500;
@@ -44,6 +43,9 @@ caption{
     font-family: 'Arvo', serif;
     font-size: 15px;
     padding: 10px;
+}
+tbody:nth-child(4){
+    background-color: #FF7D00;
 }
 tbody tr:nth-child(2) {
     background-color: rgba(155, 18, 18, 0.2);
