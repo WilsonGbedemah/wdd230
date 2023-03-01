@@ -97,7 +97,7 @@ header .company h1 {
 
 #primaryNav li a.active {
   background-color: #c0c0c0;
-  color: white;
+  color: #001524;
   border: 2px solid #b2bec3;
   border-radius: 10px;
 }
