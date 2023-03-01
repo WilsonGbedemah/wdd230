@@ -133,6 +133,23 @@
   main section picture.myphoto img{
     width: 100%;
   }
+  main section.Accra div,.cocoa div,.food div,.demo div{
+    padding: 3px;
+    margin: -5px;
+  }
+  
+  main section.Ghana div,.tourism div,.business div,
+  .sea div,.growth div{
+    padding: 3px;
+    margin: -5px;
+  }
+  main section.Ghana h2{
+    text-align: center;
+  }
+  main section.Accra h2{
+    text-align: center;
+  }
+  
 
   /**Join Styling**/
   main.join-container{
@@ -140,6 +157,10 @@
     margin-left: 6%;
     margin-bottom: 10px; 
     align-items: center; 
+  }
+  main section.benefits{
+    display: flex;
+    flex-direction: column;
   }
 }
 

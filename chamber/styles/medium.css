@@ -79,7 +79,7 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-  }
+  } 
 
   hr {
     grid-column: 1/3;
@@ -91,5 +91,8 @@
     max-width: 90%;
     margin-bottom: 10px; 
     align-items: center; 
+  }
+  main section.benefits{
+    display: none;
   }
 }

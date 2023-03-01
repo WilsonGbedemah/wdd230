@@ -355,10 +355,11 @@ hr {
 /* discover styling */
 main.Discover-holder h2{
   text-align:left;
+  color: #001524;
 }
 #last-visit{
   text-align: left;
-  color: #FF7D00;
+  color: #001524;
   text-shadow: 0 0 2px #FF7D00;
 }
 
@@ -395,23 +396,28 @@ img{
   padding-top: auto;
   transition: 1s;
 }
-
-main section.Accra div,.cocoa div,
-.food div,.demo div{
-  background-color:#001524;
-  padding: 0;
-  margin: 10px;
+main section.Accra div,.cocoa div,.food div,.demo div{
+  background-color: #001524;
+  padding: 10px;
+  margin:10px;
+  border-radius: 10px;
 }
+
 main section.Ghana div,.tourism div,.business div,
 .sea div,.growth div{
   background-color:#FF7D00;
-  padding: 0;
+  padding: 10px;
   margin:10px;
 }
 
 main section.Ghana h2{
   color:#001524;
 }
+main section.Accra h2{
+  color:#FF7D00;
+}
+
+
 
 
 
@@ -495,4 +501,7 @@ form label textarea{
   color:#001524;
   font-size: 25px;
   font-weight: 700;
+}
+main section.benefits{
+  display: none;
 }
