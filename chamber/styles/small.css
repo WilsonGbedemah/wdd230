@@ -356,6 +356,7 @@ hr {
 main.Discover-holder h2{
   text-align:left;
   color: #001524;
+  font-family: 'Arvo', serif;
 }
 #last-visit{
   text-align: left;
@@ -370,7 +371,7 @@ main.Discover-holder h2{
   align-items: center;
   padding: 3px;
   color: #c0c0c0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .talk{
@@ -380,7 +381,7 @@ main.Discover-holder h2{
   flex-direction: column;
   color: #001524;
   border-radius: 10px;
-  
+  font-family: 'Roboto', sans-serif;
 }
 .label{
   font-weight: 900;
@@ -412,9 +413,11 @@ main section.Ghana div,.tourism div,.business div,
 
 main section.Ghana h2{
   color:#001524;
+  font-family: 'Arvo', serif;
 }
 main section.Accra h2{
   color:#FF7D00;
+  font-family: 'Arvo', serif;
 }
 
 
@@ -432,6 +435,7 @@ main.join-container h2{
   margin: 10px;
   padding: 10px;
   color: #001524;
+  font-family: 'Arvo', serif;
 }
 .join{
   padding: 2rem;
@@ -466,6 +470,7 @@ label{
   margin-bottom: 1rem;
   color: #FF7D00;
   text-align: left;
+  font-family: 'Arvo', serif;
 }
 
 ::placeholder {
@@ -501,6 +506,7 @@ form label textarea{
   color:#001524;
   font-size: 25px;
   font-weight: 700;
+  font-family: 'Arvo', serif;
 }
 main section.benefits{
   display: none;

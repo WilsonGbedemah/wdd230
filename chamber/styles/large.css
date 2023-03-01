@@ -153,16 +153,22 @@
 
   /**Join Styling**/
   main.join-container{
-    max-width: 80%;
-    margin-left: 6%;
-    margin-bottom: 10px; 
-    align-items: center; 
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 0fr 1fr 1fr;
+    gap: 10px;
   }
+  
   main section.benefits{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color:#001524;
+    border-radius: 10px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    
   }
+  
 }
 
   
- 
