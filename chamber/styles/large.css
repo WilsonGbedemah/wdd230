@@ -152,10 +152,9 @@
   
 
   /**Join Styling**/
-  main.join-container{
-    grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 0fr 1fr 1fr;
-    gap: 10px;
+  .join{
+    display: flex;
+    flex-direction: row;
   }
   
   main section.benefits{
@@ -166,6 +165,9 @@
     border-radius: 10px;
     font-family: 'Arvo', serif;
     font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow:0 0 5px #FF7D00;
     
   }
   
