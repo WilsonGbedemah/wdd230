@@ -419,6 +419,15 @@ main section.Accra h2{
   color:#FF7D00;
   font-family: 'Arvo', serif;
 }
+#daysBetweenVisits {
+  display: block;
+  box-sizing: border-box;
+  background-color: #001524;
+  color: #FF7D00;
+  text-shadow: 0 0 5px #FF7D00;
+  padding: 2% 1% 2% 1%;
+  font-size: 150%;
+}
 
 
 
@@ -510,4 +519,16 @@ form label textarea{
 }
 main section.benefits{
   display: none;
+}
+main.thankyou{
+  display:flex;
+  flex-direction: column;
+}
+main.thankyou h1{
+  font-family: 'Arvo', serif;
+}
+main.thankyou p{
+  font-family: 'Arvo', serif;
+  color: #001524;
+  text-shadow: 0 0 5px #FF7D00;
 }
