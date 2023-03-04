@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Chamber of Commerce for Felix WIlson GBedemah in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title>Join Page</title>
+    <title>Directory Page</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
@@ -48,67 +48,22 @@
     <ul id="primaryNav">
         <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/index.html">Home</a></li>
         <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/discover.html">Discover</a></li>
-        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/directory.html">Directory</a></li>
-        <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/chamber/join.html">Join</a></li>
+        <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/chamber/directory.html">Directory</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/join.html">Join</a></li>
         <li><a href="https://wilsongbedemah.github.io/wdd230/chamber/">Contact</a></li> 
     </ul>
 </nav>   
 <span class="date"></span>
 </header>
-<main class="join-container">
-<h2> Complete to Join Us!</h2>
-<div class="join">
-<form action="https://wilsongbedemah.github.io/wdd230/chamber/thankyou.html" method="get">
-    <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
-    <label class="info">Last name*<input type="text" name="lname" required=""></label><br>
-    <label class="top">Position Title<input type="text" name="title" pattern=""></label>
-    <label class="info">Email*:<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
-    <label class="info">Cell Phone Number*<input type="tel" name="phone" required=""></label><br>
-    <label class="info">Business name/title*<br><input type="text" name="title" required=""></label><br>
-    <label for="membershipLevel">Membership Level*<select name="membershipLevel" id="membershipLevel" required="">
-          <option value="" disabled="" selected="">Choose Membership</option>
-          <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
-          <option value="bronze">Bronze Membership</option>
-          <option value="silver">Silver Membership</option>
-          <option value="gold">Gold Membership</option>
-        </select>
-      </label>
-      <label>
-        Business Description
-        <textarea name="businessDescription" cols="30" rows="10"></textarea>
-      </label>
+<main id="directory-main" class="directory-grid">
+    <div>
+        <div id="switcher">
+            <button id="grid" class="btn-active"><img src="images/grid.png" alt="cards view"></button>
+            <button id="list" class=""><img src="images/list.png" alt="list view"></button>
+    </div>
+    <div class="businessCards">
 
-      <input type="time" name="date" hidden="">
-      <input type="submit" value="Submit Application" class="btn">
-</form>
-<section class="benefits">
-    <p>
-        <br>
-        <br>
-        <br>
-        MEMBERSHIP LEVELS & BENEFITS<br>
-        <hr>
-        ● NP Membership (is for non profit organizations and there is no fee)<br>
-        <br>
-        This membership has no increasing costs as well as no increased benefits like trainings, advertising (like on the home page spotlights), event discounts, etc.
-        <br>
-        <hr>
-        ● Bronze Membership<br>
-        <br>
-        This membership has increasing costs as well as increased benefits like trainings, advertising (like on the home page spotlights), event discounts, etc.<br>
-        <hr>
-        ● Silver Membership<br>
-        <br>
-        This membership has increasing costs as well as increased benefits like trainings, advertising (like on the home page spotlights), event discounts, etc.<br>
-        <hr>
-        ● Gold Membership<br>
-        <br>
-        This membership has increasing costs as well as increased benefits like trainings, advertising (like on the home page spotlights), event discounts, etc.<br>
-    </p>
-</section>
-</main>
-    
-<footer>  
+<footer>
 <section class="section1">
     <a class="logo-link" href="https://wilsongbedemah.github.io/wdd230/chamber/">
         <img src="images/logo_transparent.webp" alt="Chamber Logo">
@@ -118,7 +73,7 @@
         <p>3 Bank Road, Nsawam, Ghana</p>
     </section>
 </section>
-    <div>
+<div>
     <p>info@Titanscc.org</p>
     <p>+(233) 556-427-542</p>
     <a class="location" href="https://satellites.pro/Google_plan/Nsawam_map.Eastern.Ghana">
@@ -136,7 +91,5 @@
     </div>
     </footer>
     <script src="scripts/script.js"></script>
-    
 </body>
 </html>
-

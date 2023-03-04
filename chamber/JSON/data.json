@@ -1,0 +1,74 @@
+{
+    "business": [
+      {
+        "companyName": "Blue Sky Products(Ghana) Ltd",
+        "address": " Dobro, Nsawam Eastern Region Ghana",
+        "telephone": "+233 (0) 302 953 604",
+        "siteURL": "https://blueskies.com/",
+        "logo":"images/retina-01.png"
+      },
+      {
+        "companyName": "Voltic Ghana Limited",
+        "address": "QM5C+9RP, Medie",
+        "telephone": "+233 50 132 3370 | +233 30 397 8912",
+        "siteURL": "https://volticghana.com/",
+        "logo": "images/voltic_logo.webp"
+      },
+      {
+        "companyName": "Webmator",
+        "address": "Plot 52, Accra, Ghana",
+        "telephone": "0549760059 | 0549760059",
+        "siteURL": "https://www.webmator.net/",
+        "logo": "webmator.png"
+      },
+      {
+        "companyName": "Tillis Collections",
+        "address": "Tillis Collections, Official Street, Accra, Ghana",
+        "telephone": "0245726696 | 0245726696",
+        "siteURL": "http://www.tilliscollections.com/",
+        "logo": "images/tillis-collections.jpg"
+      },
+      {
+        "companyName": "Toyota Ghana Company Limited",
+        "address": "Adjuma Cres, Accra, Ghana",
+        "telephone": "+233(0)30-2245503 | +233(0)30-2228813",
+        "siteURL": "http://www.toyotaghana.com/",
+        "logo": "images/toyota_ghana.jpg"
+      },
+      {
+        "companyName": "Possibility World Ltd",
+        "address": "B228/19 Ataa Adoko Rd 23321 Accra, Ghana",
+        "telephone": "0302327943 | +233 54 777 7210",
+        "siteURL": "http://www.possibilityworld.com/",
+        "logo": "images/possibility.jpg"
+      },
+      {
+        "companyName": "Micasa Interior Limited",
+        "address": "#55 Lagos Avenue, East Legon, Accra, Ghana",
+        "telephone": "054 843 9427 | 054 843 9427",
+        "siteURL": "http://www.micasagh.com/",
+        "logo": "images/micasa.jpg"
+      },
+      {
+        "companyName": "The Chop Bar",
+        "address": "Achimota Retail Center Dome, Accra , Ghana",
+        "telephone": "+233 303 396 6603",
+        "siteURL": "http://www.thechopbar.com.gh/",
+        "logo": "images/chop-bar.png"
+      },
+      {
+        "companyName": "Mohabb Food - Order Food Online",
+        "address": "Accra, Ghana",
+        "telephone": "0556147562",
+        "siteURL": "https://mohabb.com/food/",
+        "logo": "images/mohabb-food.png"
+      },
+      {
+        "companyName": "Vivideye Concepts",
+        "address": "Shaw Avenue, Hydroform Estate - Spintex, Accra, Ghana",
+        "telephone": "0302350392 | +233 55 831 8013 | +233 24 172 2988",
+        "siteURL": "http://www.vivideyeconcepts.org/",
+        "logo": "images/vivideye-video.jpg"
+      }
+    ]
+  }
