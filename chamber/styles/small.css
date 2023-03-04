@@ -533,6 +533,7 @@ main.thankyou p{
   text-shadow: 0 0 5px #FF7D00;
 }
 /** Directory styling**/
+
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -550,13 +551,13 @@ main.thankyou p{
 }
 #switcher{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 10rem;
 }
 
-#switcher>button{
-  background-color: #46380000;
+#switcher button{
   border: 2px solid #463800;
   padding: 1rem;
   margin: 1rem;
@@ -565,10 +566,10 @@ main.thankyou p{
   cursor: pointer;
 }
 
-#switcher>button.btn-active{
-  background-color: #46380044;
+#switcher button.btn-active{
+  background-color: #FF7D00;
 }
 
-#switcher>button:hover{
-  background-color: #46380044;
+#switcher button:hover{
+  background-color: #725f4e;
 }
