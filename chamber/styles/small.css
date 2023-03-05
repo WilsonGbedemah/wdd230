@@ -532,4 +532,78 @@ main.thankyou p{
   text-shadow: 0 0 5px #FF7D00;
 }
 /** Directory styling**/
+.cards img {
+  width: auto;
+	max-width: 320px;
+  box-shadow: 0 0 10px #777;
+  height: 200px;
+  margin: 5%;
+}
+
+#directory-main div.cards {
+  border-radius: 10px;
+  
+  margin: 0;
+}
+
+#layoutBtn {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.cards p {
+  margin:5px;
+  padding: 5px;
+}
+.cards h2{
+  text-shadow: 0 0 1px #FF7D00;
+  padding: 5px;
+  margin: 5px;
+}
+.cards a{
+  color:#c0c0c0;
+}
+.cards a:hover{
+  color: #FF7D00;
+}
+button.listBtn{
+  box-shadow: 8px 8px 10px #001524;
+}
+
+ main.directory-grid button.listBtn:hover{
+  background-color: #001524;
+  color: #FF7D00;
+}
+
+/*Directory Grid*/
+.directory-grid .cards section {
+  padding: 5%;
+  margin: 7%;
+  margin-top: 5px;
+  box-shadow: 8px 8px 10px #001524;
+  background-color: #001524;
+  color: #FF7D00;
+}
+
+
+/*Directory List*/
+.directory-list .cards section{
+  background-color: #001524;
+  color: #FF7D00;
+}
+.directory-list .cards img {
+  display: none;
+}
+
+.directory-list .cards section {
+  padding: 5%;
+  margin: 0;
+  text-align: start;
+}
+
+.directory-list .cards p {
+  padding: 4px;
+}
+
 

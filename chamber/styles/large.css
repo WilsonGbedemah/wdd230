@@ -191,7 +191,25 @@
     box-shadow:0 0 5px #FF7D00;
     
   }
-  
+
+  /** Directory styling**/
+  main.directory-grid{
+    max-width: 100%;
+    margin-right: 5%;
+    align-items: center;
+    padding: 10px;
+  }
+  .directory-grid .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 15px;
+}
+.directory-list .cards{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin: 5%;
+}
 }
 
   

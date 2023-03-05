@@ -14,7 +14,7 @@ async function displayBusinesses(businesses) {
       let location = document.createElement("p");
       let number = document.createElement("p");
       let siteLink = document.createElement("a");
-      let company = document.createElement("p");
+      let company = document.createElement("h2");
 
       location.textContent = business.address;
       number.textContent = business.telephone;

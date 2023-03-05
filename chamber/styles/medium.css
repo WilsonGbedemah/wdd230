@@ -95,4 +95,22 @@
   main section.benefits{
     display: none;
   }
+
+  /** Directory styling**/
+
+  .cards section {
+    box-sizing: border-box;
+    grid-column: auto;
+}
+
+.cards a {
+    overflow-wrap: break-word;
+}
+
+
+  .directory-list .cards section{
+    display: flex;
+    flex-direction: row;
+  }
+  
 }

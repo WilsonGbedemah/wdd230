@@ -1,11 +1,11 @@
 {
     "businesses": [
       {
-        "companyName": "Pizza Hut",
-        "address": "Accra Mall, Spintex Road, Airport Residential, Accra, Ghana",
-        "telephone": "+233 50 002 2331 | +233 50 002 2330",
-        "siteURL": "https://www.facebook.com/pizzahutghana/",
-        "logo":"images/pizza-hut.jpg.png"
+        "companyName": "Blue Sky Products(Ghana) Ltd",
+        "address": " Dobro, Nsawam Eastern Region Ghana",
+        "telephone": "+233 (0) 302 953 604",
+        "siteURL": "https://blueskies.com/",
+        "logo":"images/blueskies.png"
       },
       {
         "companyName": "Voltic Ghana Limited",
@@ -19,7 +19,7 @@
         "address": "Plot 52, Accra, Ghana",
         "telephone": "0549760059 | 0549760059",
         "siteURL": "https://www.webmator.net/",
-        "logo": "webmator.png"
+        "logo": "images/webmator.png"
       },
       {
         "companyName": "Tillis Collections",
@@ -57,11 +57,11 @@
         "logo": "images/chop-bar.png"
       },
       {
-        "companyName": "Mohabb Food - Order Food Online",
+        "companyName": "Mohabb.com",
         "address": "Accra, Ghana",
         "telephone": "0556147562",
-        "siteURL": "https://mohabb.com/food/",
-        "logo": "images/mohabb-food.png"
+        "siteURL": "https://mohabb.com",
+        "logo": "images/mohabb-com.png"
       },
       {
         "companyName": "Vivideye Concepts",
@@ -69,6 +69,20 @@
         "telephone": "0302350392 | +233 55 831 8013 | +233 24 172 2988",
         "siteURL": "http://www.vivideyeconcepts.org/",
         "logo": "images/vivideye-video.jpg"
+      },
+      {
+        "companyName": "Penny Lane Real Estate Ghana limited",
+        "address": "Nortei Ababio St, Accra, Accra, Ghana",
+        "telephone": "+233 (0) 302 763 946 | +233 (0) 244 329 343 | +233 (0) 302 763 946",
+        "siteURL": "http://www.pennylaneproperty.com/who-we-are/",
+        "logo": "images/pennylane.png"
+      },
+      {
+        "companyName": "WeChop",
+        "address": "One Airport Square, Accra, Ghana",
+        "telephone": "One Airport Square, Accra, Ghana",
+        "siteURL": "https://wechopgh.com/",
+        "logo": "images/wechop.png"
       }
     ]
   }
