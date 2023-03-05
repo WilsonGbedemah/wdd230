@@ -170,7 +170,7 @@ main {
   margin-bottom: 15px;
 }
 
-main.large-grid section h2{
+main h2{
   color: #FF7D00;
   text-shadow: 0 0 5px #FF7D00;
 }
@@ -352,12 +352,14 @@ hr {
 main.Discover-holder h2{
   text-align:left;
   color: #001524;
+  text-shadow: 0 0 1px #001524;
   font-family: 'Arvo', serif;
 }
+
 #last-visit{
   text-align: left;
   color: #001524;
-  text-shadow: 0 0 2px #FF7D00;
+  text-shadow: 0 0 1px #001524;
 }
 
 
@@ -420,9 +422,9 @@ main section.Accra h2{
   box-sizing: border-box;
   background-color: #001524;
   color: #FF7D00;
-  text-shadow: 0 0 5px #FF7D00;
   padding: 2% 1% 2% 1%;
-  font-size: 150%;
+  font-size:20px;
+  font-family: 'Arvo', serif;
 }
 
 
@@ -440,6 +442,7 @@ main.join-container h2{
   margin: 10px;
   padding: 10px;
   color: #001524;
+  text-shadow: 0 0 1px #001524;
   font-family: 'Arvo', serif;
 }
 .join{

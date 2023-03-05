@@ -162,6 +162,20 @@
     display: flex;
     flex-direction: row;
   }
+  main.join-container section.benefits h2{
+    text-align:center;
+    margin: 10px;
+    padding: 10px;
+    color: #FF7D00;
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+  }
+  main.join-container section.benefits p{
+    color: #FF7D00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+  }
 
   
   main section.benefits{
