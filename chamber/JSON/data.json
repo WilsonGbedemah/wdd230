@@ -1,11 +1,11 @@
 {
-    "business": [
+    "businesses": [
       {
-        "companyName": "Blue Sky Products(Ghana) Ltd",
-        "address": " Dobro, Nsawam Eastern Region Ghana",
-        "telephone": "+233 (0) 302 953 604",
-        "siteURL": "https://blueskies.com/",
-        "logo":"images/retina-01.png"
+        "companyName": "Pizza Hut",
+        "address": "Accra Mall, Spintex Road, Airport Residential, Accra, Ghana",
+        "telephone": "+233 50 002 2331 | +233 50 002 2330",
+        "siteURL": "https://www.facebook.com/pizzahutghana/",
+        "logo":"images/pizza-hut.jpg.png"
       },
       {
         "companyName": "Voltic Ghana Limited",
