@@ -45,6 +45,12 @@
     grid-column: 2/3;
     grid-row: 1/3;
   }
+  picture img.hero-image{
+    height: 51%;
+  }
+  section.hero picture{
+    background-color: transparent;
+  }
 
   .event {
     grid-row: 1/2;

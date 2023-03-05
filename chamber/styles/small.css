@@ -170,11 +170,7 @@ main {
   margin-bottom: 15px;
 }
 
-main section,
-main div {
-  margin: 10px;
-}
-main h2{
+main.large-grid section h2{
   color: #FF7D00;
   text-shadow: 0 0 5px #FF7D00;
 }
@@ -183,11 +179,11 @@ main h2{
   text-shadow: 0 0 3px #FF7D00;
 }
 
-main section {
+main.large-grid section {
   color: whitesmoke;
 }
 
-.large-grid main section{
+main.large-grid  section{
   background-color: #001524;
   box-shadow: 0 0 10px #010405;
   border-radius: 10px;
