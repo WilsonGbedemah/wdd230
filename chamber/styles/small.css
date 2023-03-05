@@ -576,7 +576,6 @@ button.listBtn{
   color: #FF7D00;
 }
 
-/*Directory Grid*/
 .directory-grid .cards section {
   padding: 5%;
   margin: 7%;
@@ -586,8 +585,6 @@ button.listBtn{
   color: #FF7D00;
 }
 
-
-/*Directory List*/
 .directory-list .cards section{
   background-color: #001524;
   color: #FF7D00;
@@ -598,7 +595,7 @@ button.listBtn{
 
 .directory-list .cards section {
   padding: 5%;
-  margin: 0;
+  margin: 1px;
   text-align: start;
 }
 
