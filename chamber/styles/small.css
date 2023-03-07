@@ -392,7 +392,6 @@ img{
 
  .Discover-holder img:hover {
   transform: scale(1.1);
-  padding-top: auto;
   transition: 1s;
 }
 main section.Accra div,.cocoa div,.food div,.demo div{
