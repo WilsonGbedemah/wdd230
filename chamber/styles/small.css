@@ -220,31 +220,37 @@ main section.hero {
   color: #0b1a31;
 }
 .weather img{
-  width:15%;
+  width:90%;
   align-self: center;
 }
 .weather div{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
 .weather section p{
   align-self: center;
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.weather a{
+  color: #FF7D00;
+}
+.weather a:hover{
+  color: #c0c0c0;
 }
 .weather{
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .weather h3{
   font-size: 1.2em;
   color: #FF7D00;
-  text-shadow: 0 0 5px #FF7D00;
+  text-shadow: 0 0 1px #FF7D00;
 }
 
 picture {
