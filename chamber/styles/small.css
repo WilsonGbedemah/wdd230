@@ -187,6 +187,7 @@ main.large-grid  section{
   background-color: #001524;
   box-shadow: 0 0 10px #010405;
   border-radius: 10px;
+  margin: 5px;
 }
 
 main section.hero {
@@ -206,7 +207,7 @@ main section.hero {
   z-index: 1;
   text-align: center;
 }
-.hero h3{
+.hero a{
   position: absolute;
   left: 25%;
   right: 25%;
@@ -218,6 +219,16 @@ main section.hero {
   text-align: center;
   box-shadow: 0 0 10px #010405;
   color: #0b1a31;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.weather div p {
+  font-size: 20px;
+}
+
+.weather p {
+  margin: 5px;
 }
 .weather img{
   width:90%;
@@ -225,13 +236,13 @@ main section.hero {
 }
 .weather div{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  height: 40%;
+  width: 100%;
+  justify-content: center;
 }
 .weather section p{
-  align-self: center;
-  padding: 0;
-  margin: 0;
+  text-align: center;
   font-family: "Roboto", sans-serif;
 }
 .weather a{
@@ -244,11 +255,9 @@ main section.hero {
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 .weather h3{
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #FF7D00;
   text-shadow: 0 0 1px #FF7D00;
 }
@@ -260,7 +269,8 @@ picture {
   padding: 0;
   align-items: center;
 }
-#join h2{
+
+#join a{
   background-color: #FF7D00;
   padding: 5px;
   margin: 5%;
@@ -268,6 +278,8 @@ picture {
   text-align: center;
   box-shadow: 0 0 10px #010405;
   color:#0b1a31;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .spotlight {
@@ -617,4 +629,62 @@ button.listBtn{
   padding: 4px;
 }
 
+
+/**ContactUs styles**/
+main.contact-grid{
+  max-width: 80%;
+  margin-bottom: 10px;
+  
+}
+.inform h3 {
+  text-align: start;
+  padding-left: 10%;
+  font-family: 'Arvo', serif;
+
+}
+.inform p{
+  font-family: 'Roboto', serif;
+  color: #c0c0c0;
+
+}
+.inform h2{
+  text-shadow: 0 0 1px #FF7D00;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Arvo', serif;
+}
+
+.inform {
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 0;
+  background-color: #001524;
+  color: #FF7D00;
+  padding: 5px;
+  border-radius: 10px;
+}
+main.contact-grid h2.hid{
+  text-align:start;
+  margin: 10px;
+  padding: 10px;
+  color: #001524;
+  text-shadow: 0 0 1px #001524;
+  font-family: 'Arvo', serif;
+}
+.contact{
+  padding: 3rem;
+  width: 100%;
+}
+.button{
+  background-color: #FF7D00;
+  padding: 10px;
+  margin: 5%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #010405;
+  color:#001524;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Arvo', serif;
+}
 
