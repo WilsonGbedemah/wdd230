@@ -182,10 +182,9 @@ main h2{
 main.large-grid section{
   background-color: #001524;
   box-shadow: 0 0 10px #010405;
-  border-radius: 10px;
+  border-radius: 5px;
   color: whitesmoke;
-  margin: 4%;
-  padding: 5px;
+  margin: 10px;
 }
 
 main section.hero {
@@ -234,8 +233,6 @@ main section.hero {
 .weather div{
   display: flex;
   align-items: center;
-  height: 40%;
-  width: 100%;
   justify-content: center;
 }
 .weather section p{

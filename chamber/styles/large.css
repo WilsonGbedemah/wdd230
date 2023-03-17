@@ -60,6 +60,13 @@
   section.hero picture{
     background-color: transparent;
   }
+  .hero h2 {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    width: 40%;
+    z-index: 1;
+  }
 
   .event {
     grid-row: 1/2;
@@ -200,7 +207,8 @@
     max-width: 100%;
     margin-right: 5%;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 5%;
   }
   .directory-grid .cards {
     display: grid;
