@@ -28,12 +28,12 @@ img.icon{
 }
 
 header {
-  background-color: #0b1a31;
+  background-color: #FF7D00;
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-bottom: 15px;
   padding: 0 2% 3% 2%;
-  color: whitesmoke;
+  color: #001524;
   border: 2px solid #b2bec3;
   border-radius: 10px;
 }
@@ -81,10 +81,10 @@ header .company h1 {
 
 #hamburgerBtn {
   background-color: transparent;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #001524;
   font-size: 1.5em;
   margin-top: -2%;
-  color: #c0c0c0;
+  color: #001524;
   margin-left: 1%;
 }
 
@@ -96,9 +96,9 @@ header .company h1 {
 }
 
 #primaryNav li a.active {
-  background-color: #c0c0c0;
-  color: #001524;
-  border: 2px solid #b2bec3;
+  background-color: #001524;
+  color: #FF7D00;
+  border: 1px solid #b2bec3;
   border-radius: 10px;
 }
 
@@ -107,8 +107,10 @@ header ul {
 }
 header ul.open {
   display: block;
-  border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #001524;
   margin-bottom: 2%;
+  font-size: 15px;
+  font-weight: 900;
 }
 nav{
   display: grid;
@@ -116,23 +118,23 @@ nav{
 }
 
 header ul li a {
-  color: whitesmoke;
+  color: #001524;
 }
 
 #primaryNav li {
-  border-top: 1px solid #c0c0c0;
+  border-top: 1px solid #001524;
 }
 
 #primaryNav li a {
   display: block;
   padding: 0.8em 2vw;
   text-decoration: none;
-  border: 2px solid #0b1a31;
+
 }
 
 #primaryNav li a:hover {
-  background-color: #ffe5b4;
-  color: #0b1a31;
+  background-color: #b2bec3;
+  color: black;
   border: 2px solid #b2bec3;
   border-radius: 10px;
 }
@@ -153,10 +155,10 @@ header ul li a {
 .date {
   display: grid;
   grid-column: 1/4;
-  background-color: #c0c0c0;
-  color: #0b1a31;
+  background-color: #001524;
+  color: #FF7D00;
   padding: 2% 0 2% 0;
-  border: 2px solid #b2bec3;
+  border: 1px solid #b2bec3;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -313,46 +315,6 @@ picture {
 
 .event-2{
   display: none;
-}
-footer {
-  background-color: #0b1a31;
-  display: block;
-  padding: 2% 2% 0 2%;
-  align-items: center;
-  font-size: 70%;
-  color: whitesmoke;
-  box-shadow: 0 0 10px #010405;
-  border-radius: 10px;
-}
-
-.section1 section h1,
-.section2 h2 {
-  font-size: 150%;
-}
-
-.section1 {
-  max-width: 50%;
-  margin-left: 25%;
-}
-
-.location {
-  text-decoration: none;
-  font-weight: 700;
-}
-.map {
-  width: 10%;
-}
-
-.section2 {
-  padding-bottom: 1%;
-}
-
-.section2 p {
-  display: block;
-}
-
-hr {
-  max-width: 100%;
 }
 
 
@@ -681,4 +643,57 @@ main.contact-grid h2.hid{
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
+/** footer styling**/
 
+footer {
+  background-color: #FF7D00;
+  display: block;
+  padding: 2% 2% 0 2%;
+  align-items: center;
+  font-size: 70%;
+  color: #001524;
+  box-shadow: 0 0 10px #010405;
+  border-radius: 10px;
+}
+
+.section1 section h1,
+.section2 h2 {
+  font-size: 150%;
+  font-weight:bolder;
+}
+
+.section1 {
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.section1 p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.location {
+  text-decoration: none;
+  font-weight: 700;
+}
+.map {
+  width: 10%;
+}
+
+.section2 {
+  padding-bottom: 1%;
+}
+
+.section2 p {
+  display: block;
+  font-weight: 700;
+}
+div.tight p{
+  font-weight: 700;
+  font-size: 13px;
+}
+
+hr {
+  max-width: 100%;
+  background: #001524;
+}
