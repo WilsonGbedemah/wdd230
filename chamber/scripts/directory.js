@@ -48,7 +48,7 @@ function toggleLayout(){
   if (document.querySelector(".listBtn")){
       document.getElementById("directory-main").setAttribute("class", "directory-list");
       document.getElementById("layoutBtn").setAttribute("class", "gridBtn");
-      document.getElementById("layoutBtn").innerHTML = "Grid";
+      document.getElementById("layoutBtn").innerHTML = "🎫Grid";
   }
   else {
       document.getElementById("directory-main").setAttribute("class", "directory-grid");

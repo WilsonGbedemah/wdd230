@@ -194,30 +194,24 @@ main section.hero {
   margin: 0;
 }
 
-.hero h2 {
-  color: #0b1a31;
-  text-shadow: 0 0 5px #FFECD1;
+main.large-grid section.hero h2 {
   position: absolute;
-  left: 25%;
-  right: 25%;
-  width: 50%;
-  z-index: 1;
-  text-align: center;
+    color: #001524;
+    margin-left: 4%;
+    font-size: 1.5rem;
 }
 .hero a{
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  width: 50%;
-  top: 35%;
-  background-color: #FF7D00;
-  padding: 5px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px #010405;
-  color: #0b1a31;
-  text-decoration: none;
-  font-weight: bolder;
+    background-color: #FF7D00;
+    color: #001524;
+    text-decoration: none;
+    position: absolute;
+    box-shadow: 1px 1px 1px #603613;
+    padding: 2%;
+    border-radius: 10px;
+    bottom: 15%;
+    right: 10%;
+    font-weight: bolder;
+    font-family: 'Arvo', serif;
 }
 
 .weather div p {
@@ -266,8 +260,10 @@ picture {
 
 #join a{
   background-color: #FF7D00;
-  padding: 5px;
+  padding: 2%;
   margin: 5%;
+  width: 20%;
+  margin-left: 35%;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px #010405;
@@ -592,6 +588,10 @@ button.listBtn{
 }
 
  main.directory-grid button.listBtn:hover{
+  background-color: #001524;
+  color: #FF7D00;
+}
+main.directory-list button.gridBtn:hover{
   background-color: #001524;
   color: #FF7D00;
 }

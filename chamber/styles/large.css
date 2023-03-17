@@ -60,14 +60,7 @@
   section.hero picture{
     background-color: transparent;
   }
-  .hero h2 {
-    position: absolute;
-    left: 25%;
-    right: 25%;
-    width: 40%;
-    z-index: 1;
-  }
-
+  
   .event {
     grid-row: 1/2;
   }
