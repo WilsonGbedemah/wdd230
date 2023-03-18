@@ -165,6 +165,7 @@
   .join{
     display: flex;
     flex-direction: row;
+    margin-left: 2%;
   }
   section.membership-grid h2{
     text-align:center;
@@ -177,7 +178,7 @@
   .membership p{
     color: #FF7D00;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 
   }
   .membership {
@@ -188,7 +189,7 @@
   .membership h3{
   color: #FF7D00;
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 0 0 3px #FF7D00;
   font-family: 'Arvo', serif;
   }
@@ -237,7 +238,21 @@
 main.contact-grid{
   max-width: 90%;
   margin-bottom: 10px;
-  
+}
+
+main section.inform{
+  background-color:#001524;
+  border-radius: 10px;
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  margin: 3px;
+  box-shadow:0 0 5px #FF7D00;
+  padding: 3rem;
+  width: auto;
+}
+div.contact{
+  display: flex;
+  flex-direction: row;
 }
 section.inform {
   text-align: start;

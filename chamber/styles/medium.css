@@ -94,7 +94,7 @@
     margin-bottom: 10px; 
     align-items: center; 
   }
-  main section.benefits{
+  main section.membership-grid{
     display: none;
   }
 
@@ -116,21 +116,8 @@
   }
   
   /**Contact styling**/
-  .contact{
-    display: flex;
-    flex-direction: row;
-  }
-
-  main section.inform{
-    background-color:#001524;
-    border-radius: 10px;
-    font-family: 'Arvo', serif;
-    font-weight: 700;
-    margin: 3px;
-    box-shadow:0 0 5px #FF7D00;
-    padding: 3rem;
-    width: auto;
-  }
+  
+  
   .button{
     background-color: #FF7D00;
     padding: 10px;
