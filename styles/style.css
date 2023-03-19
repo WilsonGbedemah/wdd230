@@ -8,7 +8,7 @@ body {
 
 }
 #header_box {
-    background-color: #0b1a31;
+    background-color: #FF7D00;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -27,7 +27,7 @@ body {
 #title_header {
     font-size: 30px;
     font-weight: normal;
-    color: whitesmoke;
+    color: #001524;
     font-family: 'Arvo', serif;
 }
 .line {
@@ -51,17 +51,31 @@ ul {
     align-items: left;
     text-align: left;
 }
+#list_link{
+    background-color:#001524 ;
+    padding: 5%;
+    padding-left: 20%;
+    border-radius: 10px;
+    color: #FF7D00;
+    margin: 5%;
+    box-shadow: 0 0 10px #010405;    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+}
 a {
-    justify-content: flex-start;
-    align-items: left;
-    text-align: center;
-    color:blue;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-size: small;
-    border-radius: 0.5em;
-    text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
+background-color: #FF7D00;
+  padding: 2%;
+  margin: 2%;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #010405;
+  color:#001524;
+  text-decoration: none;
+  font-weight: bolder;
 }
 a:hover {
     background-color: whitesmoke;
@@ -73,21 +87,28 @@ hr {
     border: 0;
 }
 #comment {
+    background-color: #001524;
     font-style: italic;
-    color: #2d3436;
+    color: #FF7D00;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px #010405;
+    font-weight: bolder;
     font-family: 'Sofia Sans', sans-serif;
 }
 footer {
-    background-color: #0b1a31;
-    color: whitesmoke;
+    background-color: #FF7D00;
+    color: #001524;
     padding: 5%;
-    font-weight: lighter;
+    font-weight: bolder;
     border: 2px solid #b2bec3;
     padding: 1%;
     font-family: 'Arvo', serif;
 }
 #modify {
     font-style: italic;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-top: 10px;
 }
