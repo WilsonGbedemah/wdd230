@@ -36,6 +36,7 @@ header {
   color: #001524;
   border: 2px solid #b2bec3;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .design {
@@ -223,16 +224,11 @@ main.large-grid section.hero h2 {
   font-size: 20px;
 }
 .weather p {
-  margin: 5px;
+  margin: 2px;
 }
 .weather img{
   width:90%;
   align-self: center;
-}
-.weather div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .weather section p{
   text-align: center;
@@ -241,14 +237,18 @@ main.large-grid section.hero h2 {
 .weather a{
   color: #FF7D00;
 }
+
 .weather a:hover{
   color: #c0c0c0;
 }
+
 .weather{
   text-align: center;
   display: flex;
   flex-direction: column;
+  margin: 5px;
 }
+
 .weather h3{
   font-size: 1.1em;
   color: #FF7D00;
@@ -639,6 +639,7 @@ main.contact-grid{
 .inform p{
   font-family: 'Roboto', serif;
   color: #c0c0c0;
+  font-weight: bolder;
 
 }
 .inform h2{
@@ -646,6 +647,7 @@ main.contact-grid{
   padding: 5px;
   margin: 5px;
   font-family: 'Arvo', serif;
+  font-weight: bolder;
 }
 
 .inform {
@@ -673,13 +675,13 @@ div.contact{
 }
 .button{
   background-color: #FF7D00;
-  padding: 5%;
-  margin: 5%;
+  padding: 10%;
+  margin: 15%;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px #010405;
   color:#001524;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
@@ -692,8 +694,9 @@ footer {
   align-items: center;
   font-size: 70%;
   color: #001524;
-  box-shadow: 0 0 10px #010405;
+  border: 2px solid #b2bec3;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .section1 section h1,
