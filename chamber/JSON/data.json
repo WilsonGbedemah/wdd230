@@ -5,6 +5,7 @@
         "address": " Dobro, Nsawam Eastern Region Ghana",
         "telephone": "+233 (0) 302 953 604",
         "siteURL": "https://blueskies.com/",
+        "membershipLevel": "Gold",
         "logo":"images/blueskies.png"
       },
       {
@@ -12,6 +13,7 @@
         "address": "QM5C+9RP, Medie",
         "telephone": "+233 50 132 3370 | +233 30 397 8912",
         "siteURL": "https://volticghana.com/",
+        "membershipLevel": "Silver",
         "logo": "images/voltic_logo.webp"
       },
       {
@@ -19,6 +21,7 @@
         "address": "Plot 52, Accra, Ghana",
         "telephone": "0549760059 | 0549760059",
         "siteURL": "https://www.webmator.net/",
+        "membershipLevel": "NP",
         "logo": "images/webmator.png"
       },
       {
@@ -26,6 +29,7 @@
         "address": "Tillis Collections, Official Street, Accra, Ghana",
         "telephone": "0245726696 | 0245726696",
         "siteURL": "http://www.tilliscollections.com/",
+        "membershipLevel": "NP",
         "logo": "images/tillis-collections.jpg"
       },
       {
@@ -33,6 +37,7 @@
         "address": "Adjuma Cres, Accra, Ghana",
         "telephone": "+233(0)30-2245503 | +233(0)30-2228813",
         "siteURL": "http://www.toyotaghana.com/",
+        "membershipLevel": "Silver",
         "logo": "images/toyota_ghana.jpg"
       },
       {
@@ -40,6 +45,7 @@
         "address": "B228/19 Ataa Adoko Rd 23321 Accra, Ghana",
         "telephone": "0302327943 | +233 54 777 7210",
         "siteURL": "http://www.possibilityworld.com/",
+        "membershipLevel": "Gold",
         "logo": "images/possibility.jpg"
       },
       {
@@ -47,6 +53,7 @@
         "address": "#55 Lagos Avenue, East Legon, Accra, Ghana",
         "telephone": "054 843 9427 | 054 843 9427",
         "siteURL": "http://www.micasagh.com/",
+        "membershipLevel": "NP",
         "logo": "images/micasa.jpg"
       },
       {
@@ -54,6 +61,7 @@
         "address": "Achimota Retail Center Dome, Accra , Ghana",
         "telephone": "+233 303 396 6603",
         "siteURL": "http://www.thechopbar.com.gh/",
+        "membershipLevel": "Bronze",
         "logo": "images/chop-bar.png"
       },
       {
@@ -61,6 +69,7 @@
         "address": "Accra, Ghana",
         "telephone": "0556147562",
         "siteURL": "https://mohabb.com",
+        "membershipLevel": "Silver",
         "logo": "images/mohabb-com.png"
       },
       {
@@ -68,6 +77,7 @@
         "address": "Shaw Avenue, Hydroform Estate - Spintex, Accra, Ghana",
         "telephone": "0302350392 | +233 55 831 8013 | +233 24 172 2988",
         "siteURL": "http://www.vivideyeconcepts.org/",
+        "membershipLevel": "Bronze",
         "logo": "images/vivideye-video.jpg"
       },
       {
@@ -75,13 +85,15 @@
         "address": "Nortei Ababio St, Accra, Accra, Ghana",
         "telephone": "+233 (0) 302 763 946 | +233 (0) 244 329 343 | +233 (0) 302 763 946",
         "siteURL": "http://www.pennylaneproperty.com/who-we-are/",
+        "membershipLevel": "Bronze",
         "logo": "images/pennylane.png"
       },
       {
         "companyName": "WeChop",
         "address": "One Airport Square, Accra, Ghana",
-        "telephone": "One Airport Square, Accra, Ghana",
+        "telephone": "0556157262",
         "siteURL": "https://wechopgh.com/",
+        "membershipLevel": "Gold",
         "logo": "images/wechop.png"
       }
     ]

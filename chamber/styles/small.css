@@ -215,7 +215,10 @@ main.large-grid section.hero h2 {
     font-weight: bolder;
     font-family: 'Arvo', serif;
 }
-
+.hero a:hover{
+    background-color: #001524;
+    color: #FF7D00;
+}
 .weather div p {
   font-size: 20px;
 }
@@ -273,11 +276,16 @@ picture {
   text-decoration: none;
   font-weight: bolder;
 }
-
+#join a:hover{
+  background-color: #c0c0c0;
+    color: #001524;
+}
 .spotlight {
   background-color: #c0c0c0;
   padding: 2%;
   border-radius: 10px;
+  margin: 2px;
+  
 }
 .event, .weather,.news, .spotlight{
   padding: 1.5px;
@@ -289,6 +297,38 @@ picture {
   box-shadow: 0 0 10px #010405;
   border-radius: 10px;
 }
+.spotlight img {
+  width: auto;
+	max-width: 250px;
+  box-shadow: 0 0 10px #777;
+  height: 150px;
+  margin: 5%;
+}
+.spotlight a {
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #FF7D00;
+  color: #001524;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 25%;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.spotlight a:hover {
+  background-color: #c0c0c0;
+  color: #001524;
+}
+
+.spotlight section p {
+  box-sizing: border-box;
+  margin-bottom: 2px;
+  overflow-wrap: break-word;
+}
+
 .banner {
   background: #001524;
   color:whitesmoke;
@@ -313,9 +353,7 @@ picture {
   display: none;
 }
 
-.event-2{
-  display: none;
-}
+
 
 
 /* discover styling */
@@ -496,14 +534,14 @@ main.thankyou h1{
   font-family: 'Arvo', serif;
 }
 main.thankyou p{
-  background-color: #FF7D00;
+  background-color: #001524;
   margin: 5%;
   border-radius: 10px;
   padding: 5%;
   font-family: 'Arvo', serif;
   font-size: larger;
   font-weight: 500;
-  color: #001524;
+  color: #FF7D00;
   text-shadow: 0 0 1px #001524;
   box-shadow: 0 0 20px #001524;
 }
@@ -641,7 +679,7 @@ div.contact{
   text-align: center;
   box-shadow: 0 0 10px #010405;
   color:#001524;
-  font-size: 1px;
+  font-size: 15px;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }

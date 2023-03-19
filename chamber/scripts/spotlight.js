@@ -29,7 +29,7 @@ async function displaySpotlights(businesses) {
     siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight.siteURL)
 
-    logo.setAttribute("src", chosenSpotlight.siteLogo);
+    logo.setAttribute("src", chosenSpotlight.logo);
     logo.setAttribute("alt", `siteLogo of ${chosenSpotlight.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
@@ -51,7 +51,7 @@ async function displaySpotlights(businesses) {
     siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight2.siteURL)
 
-    logo.setAttribute("src", chosenSpotlight2.siteLogo);
+    logo.setAttribute("src", chosenSpotlight2.logo);
     logo.setAttribute("alt", `siteLogo of ${chosenSpotlight2.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
@@ -73,11 +73,11 @@ async function displaySpotlights(businesses) {
     siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight3.siteURL)
 
-    logo.setAttribute("src", chosenSpotlight3.siteLogo);
+    logo.setAttribute("src", chosenSpotlight3.logo);
     logo.setAttribute("alt", `siteLogo of ${chosenSpotlight3.companyName}`);
     logo.setAttribute("loading", "lazy");
-    logo.setAttribute("width", "456");
-    logo.setAttribute("height", "250");
+    logo.setAttribute("width", "150");
+    logo.setAttribute("height", "200");
     logo.setAttribute("class", "businessLogo");
 
     spotlight3.appendChild(logo);
@@ -86,3 +86,13 @@ async function displaySpotlights(businesses) {
 }
 
 getBusinessesData();
+
+//Durnstenfeld shuffle method
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
