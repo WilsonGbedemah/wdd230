@@ -254,6 +254,9 @@ div.contact{
   display: flex;
   flex-direction: row;
 }
+.contact{
+  margin-left:5%;
+}
 section.inform {
   text-align: start;
   margin-top: auto;
