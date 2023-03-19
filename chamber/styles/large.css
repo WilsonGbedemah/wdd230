@@ -145,13 +145,13 @@
   }
   main section.Accra div,.cocoa div,.food div,.demo div{
     padding: 3px;
-    margin: -5px;
+    margin-bottom: -3px;
   }
   
   main section.Ghana div,.tourism div,.business div,
   .sea div,.growth div{
     padding: 3px;
-    margin: -5px;
+    margin-bottom: -3px;
   }
   main section.Ghana h2{
     text-align: center;

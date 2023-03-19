@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    border: 2px solid #b2bec3;
+    box-shadow: 0 0 10px #010405;
     border-radius: 10px;
     padding: 1%;
 }
@@ -22,7 +22,11 @@ body {
     padding: 1%;
     padding-left: 5px;
     align-items: left;
+}
 
+#son:hover{
+    transform: scale(1.1);
+    transition: 1s;
 }
 #title_header {
     font-size: 30px;
@@ -31,9 +35,9 @@ body {
     font-family: 'Arvo', serif;
 }
 .line {
-    background-color: #b2bec3;
-    width: 100%;
-    height: 0.1vh; 
+    background-color: #001524;
+    width: 80%;
+    height: 0.4vh; 
     border: 0;
 }
 #banner {
@@ -103,7 +107,7 @@ footer {
     color: #001524;
     padding: 5%;
     font-weight: bolder;
-    border: 2px solid #b2bec3;
+    box-shadow: 0 0 10px #010405;
     padding: 1%;
     font-family: 'Arvo', serif;
 }
