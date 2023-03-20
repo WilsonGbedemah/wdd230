@@ -514,10 +514,13 @@ form label textarea{
 .btn{
   background-color: #FF7D00;
   padding: 10px;
-  margin: 5%;
-  border-radius: 10px;
+  margin: 2%;
+  width: 40%;
+  margin-left: 30%;
   text-align: center;
-  box-shadow: 0 0 10px #010405;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px #FF7D00;
   color:#001524;
   font-size: 25px;
   font-weight: 700;
@@ -675,13 +678,16 @@ div.contact{
 }
 .button{
   background-color: #FF7D00;
-  padding: 10%;
-  margin: 15%;
-  border-radius: 10px;
+  padding: 10px;
+  margin: 2%;
+  width: 40%;
+  margin-left: 30%;
   text-align: center;
-  box-shadow: 0 0 10px #010405;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px #FF7D00;
   color:#001524;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
