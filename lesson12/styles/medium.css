@@ -1,0 +1,17 @@
+@media only screen and (min-width: 32.5em){
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        line-height: 3em;
+      }
+
+    nav a {
+        width: 100%;
+    }
+}

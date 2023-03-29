@@ -1,0 +1,25 @@
+@media only screen and (min-width: 35em) {
+
+  header .company h1 {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+     /**Main Styling**/
+
+  picture{
+      height: 300px;
+      width: 1800px;
+      object-fit: cover;
+    }
+  .home{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  }
+  .home img{
+    height: 100%;
+    width: 200%;
+    object-fit: cover;
+  }
+
+}

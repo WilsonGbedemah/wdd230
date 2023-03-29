@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful food project for Felix WIlson GBedemah in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Bountiful Foods</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <section class="design">
+        <a  href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/">
+        <img class="logo-link"src="images/bountiful_logo.png" alt="Logo">
+        </a>
+    <section class="company">
+        <h1>BOUNTIFUL FOODS</h1>
+    </section>
+</section>
+<div class="social">
+    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="Loginpage">
+    <img src="images/facebook.png" alt="Facebook Icon">
+    </a>
+    <a href="icons8-twitter-480.png" target="Loginpage">
+        <img src="images/twitter.png" alt="twitter icon">
+    </a>
+    <a href="https://www.linkedin.com/home" target="LinkedIn homepage">
+    <img src="images/linkedin.png" alt="Linkedin Icon">
+    </a>
+</div>
+<div class="nav">
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+</div>
+<nav>
+    <ul id="primaryNav">
+        <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Fresh</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">About Us</a></li>
+    </ul>
+</nav>   
+
+</header>
+    <main class="home-grid">
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more information</p>
+            <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
+        </div>
+    <section class="hero">
+        <picture class="hero_pic">
+            <source srcset="images/Carlsbad_small.jpg" media="(max-width:34.99em)">
+            <source srcset="images/Carlsbad_medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
+            <img class="hero-image" src="images/Carlsbad_large.jpg" alt="Hero image">
+        </picture>
+    </section>
+        <section class="home1">
+            <h2>Carlsbad Bountiful Foods Summary</h2>
+            <p>Carlsbad is a coastal city in the North County region of San Diego County, California, United States. The city is 87 miles 
+            (140 km) south of downtown Los Angeles and 35 miles (56 km) north of downtown San Diego. As of the 2020 census, the population
+            of the city was 114,746. Carlsbad is a popular tourist destination and home to many businesses in the golf industry
+            For city planning and growth management purposes, Carlsbad is divided into four distinct quadrants. In 2008, Carlsbad voters passed
+            a measure to become a charter city (as opposed to the general-law municipality they had been before), approving the proposed charter 
+            by 82% and officially becoming such that same year.Carlsbad's core industries include information technology, video game development,
+            manufacturing, robotics, medical devices, life science, wireless technology, clean technology, action sports, tourism, design development
+            and real estate. In 2013, Google named Carlsbad the digital capital of California with the strongest online business community. Carlsbad 
+            is also known as the "Titanium Valley" because of its golf manufacturing industry. </p>
+    </section>
+    <section class="home">
+        <div class="fruit">
+            <h2>Fruits Selections</h2>
+            <p> Bountiful Foods offers a wide range of fresh fruits straight from its course and as such available to all wo need it.
+                All fruits deleiver are fresh with great amount of appealing look and taste. That is what we aim to do as a company. 
+                Just tell us what you need.
+            </p>
+            </div>
+        <picture class="myphoto">
+            <img src="images/placeholder.jpg" data-src="images/strawberry.jpg" alt="Strawberry">
+        </picture>
+    </section>
+    <section class="hero">
+        <picture class="hero_pic">
+            <source srcset="images/hero2_small.jpg" media="(max-width:34.99em)">
+            <source srcset="images/hero2_medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
+            <img class="hero-image" src="images/hero2.jpg" alt="Hero2 image">
+        </picture>
+    </section>
+    <section class="home">
+        <picture>
+            <img src="images/placeholder.jpg" data-src="images/banana.jpg" alt="Banana">
+        </picture>
+        <div class="call">
+        <h2>Place an Order</h2>
+        <p>Hosting a weekend picnic or special event? Place an order for pickup on Saturday morning at the calrlsbad Beach Farmers’ Market, or have it delivered within LA and OC for a $25 flat fee. Order must be placed at least 2 days prior to pickup/delivery.</p>
+        <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Place an Order</a>
+        </div>
+</section>
+    <div class="home-sect">
+    <section class="weather">
+        <h2>Weather</h2>        
+            <p>Temperature is <span id="current-temp"></span> &deg;F</p>
+            <figure>
+            <img class="icon" src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+            </figure>
+            <p>Humidity: <span id="Humidity"></span>m/h</p>
+
+            <p>3 Days weather forecast: <span id="forecast"></span></p>
+            <p class="weat">Weather Information from : <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+    </section>
+    <section class="info">
+        <h2>Specialty Information</h2>
+        <p>There is nothing more interesting than the feel of our fresh products, So what are you waiting for, just have a taste 😊. we have a lot to offer you</p>
+    </section>
+    </div>
+    <section class="gallery">
+        <picture class="myphoto">
+          <img src="images/placeholder.jpg" data-src="images/orange.jpg" alt="Oranges">
+        </picture>
+        <picture class="myphoto">
+            <img src="images/placeholder.jpg" data-src="images/red_apple.jpg" alt="Apples">
+          </picture>
+          <picture class="myphoto">
+            <img src="images/placeholder.jpg" data-src="images/pineapple.jpg" alt="pineapples">
+          </picture>
+        
+      </section>
+</main>
+<footer>
+        ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
+        <p>Last Modification: <span id="lastmodified"></span></p>
+</footer>
+        <script src="scripts/script.js"></script>
+        <script src="scripts/lazyload.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful food project for Felix WIlson GBedemah in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Bountiful Foods</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <header>
+        <section class="company">
+            <a class="logo-link" href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/">
+                <img src="images/logo.webp" alt="Chamber Logo">
+                </a>
+            <h1>BOUNTIFUL FOODS</h1>
+        </section>
+    <div class="social">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="Loginpage">
+        <img src="images/facebook.png" alt="Facebook Icon">
+        </a>
+        <a href="icons8-twitter-480.png" target="Loginpage">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://www.linkedin.com/home" target="LinkedIn homepage">
+        <img src="images/linkedin.png" alt="Linkedin Icon">
+        </a>
+    </div>
+    <div class="nav">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    </div>
+    <nav>
+        <ul id="primaryNav">
+            <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
+            <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Fresh</a></li>
+            <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">About Us</a></li>
+        </ul>
+    </nav>   
+    
+    </header>
+<div class="contact">
+    <h2>Contact Information</h2>
+    <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345</p>
+</div>
+<main class="fresh-container">
+    <h2>Build Your Own Specialty Drink</h2>
+    <div class="forms">
+    <form>
+        <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
+        <label class="info">Email*:<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
+        <label class="info">Telephone Number*<input type="tel" name="phone" required=""></label><br>
+        <label for="Inputelements"> Element inputs*<select name="elementinputs" id="elementinput" required="">
+              <option value="" disabled="" selected="">Select First input Element</option>
+              <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+            </select>
+          </label>
+          <label for="Inputelements"> Element inputs*<select name="elementinputs" id="elementinput" required="">
+            <option value="" disabled="" selected="">Select Second input Element</option>
+            <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+          </select>
+        </label>
+        <label for="Inputelements"> Element inputs*<select name="elementinputs" id="elementinput" required="">
+            <option value="" disabled="" selected="">Select Third input Element</option>
+            <option value="np">NP Membership (is for non profit organizations and there is no fee)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+          </select>
+        </label>
+          <label>
+            Special Instructions
+            <textarea name="businessDescription" cols="30" rows="10"></textarea>
+          </label>
+          <input type="submit" value="Submit" class="btn">
+    </form>
+<footer>
+        ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
+        <p>Last Modification: <span id="lastmodified"></span></p>
+</footer>
+        <script src="scripts/script.js"></script>
+</body>
+</html>
+

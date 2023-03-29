@@ -1,0 +1,113 @@
+@media only screen and (min-width: 64em) {
+    /** Header Styling**/
+    header .company {
+        text-align: center;
+        font-size: 90%;
+        padding: 0%;
+      }
+      
+      header .company h1 {
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+      .logo{
+        margin-top: 30px;
+      }
+
+  /**Navigation Styling**/
+  #hamburgerBtn {
+    display: none;
+  }
+
+  #primaryNav {
+    display: flex;
+    padding: 0;
+    margin: 5px;
+    border: 0;
+  }
+  #primaryNav li {
+    border: none;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    padding: 5%;
+
+  }
+  .social a {
+    width: 40px;
+   
+  }
+  .nav {
+    grid-column: 3/4;
+  }
+  nav{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: flex-end;
+    margin-top: 5%;
+  }
+
+  /**Main Styling**/
+
+
+  .contact {
+    padding: 20px;
+    margin: 10px;
+  }
+  .contact a{
+    background-color: #c0c0c0;
+    color: #001524;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px #12181D;
+    padding:15px;
+    font-weight: bolder;
+    font-family: 'Arvo', serif;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  }
+
+  
+  .home{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 3%;
+  }
+  .fruits{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .home picture{
+    height: 400px;
+    width: 1500px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  .call{
+    margin: 5%x;
+    padding-top: 8%;
+  }
+  .fruit{
+    margin: 5%x;
+    padding-top: 8%;
+  }
+  .gallery{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .gallery picture{
+    padding: 5px;
+    margin: 5px;
+  }
+
+
+}
