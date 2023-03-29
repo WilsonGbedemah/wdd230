@@ -1,14 +1,18 @@
 @media only screen and (min-width: 35em) {
 
+
   header .company h1 {
     margin-bottom: 5px;
     font-size: 30px;
   }
      /**Main Styling**/
-
+  .contact a{
+      margin-right: 45%;
+      margin-left: 45%;
+    }
   picture{
       height: 300px;
-      width: 1800px;
+      width: 1900px;
       object-fit: cover;
     }
   .home{
@@ -20,6 +24,11 @@
     height: 100%;
     width: 200%;
     object-fit: cover;
+  }
+
+  .hero-image{
+    height: 400px;
+    width: 100%;
   }
 
 }

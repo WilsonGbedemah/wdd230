@@ -66,12 +66,15 @@
     padding:15px;
     font-weight: bolder;
     font-family: 'Arvo', serif;
-    padding-bottom: 5px;
     position: absolute;
     top: 30%;
-    right: 10%;
+    left: 40%;
   }
 
+  .hero-image{
+    height: 620px;
+    width: 100%;
+  }
   
   .home{
     display: flex;

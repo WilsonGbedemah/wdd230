@@ -45,19 +45,19 @@
         <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Fresh</a></li>
         <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">About Us</a></li>
     </ul>
-</nav>   
+</nav>  
+<div class="contact">
+    <h2>Contact Information</h2>
+    <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more information</p>
+    <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
+</div> 
 
 </header>
     <main class="home-grid">
-        <div class="contact">
-            <h2>Contact Information</h2>
-            <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more information</p>
-            <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
-        </div>
     <section class="hero">
         <picture class="hero_pic">
-            <source srcset="images/Carlsbad_small.jpg" media="(max-width:34.99em)">
-            <source srcset="images/Carlsbad_medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
+            <source class="hero-image" srcset="images/Carlsbad_small.jpg" media="(max-width:34.99em)">
+            <source class="hero-image" srcset="images/Carlsbad_medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
             <img class="hero-image" src="images/Carlsbad_large.jpg" alt="Hero image">
         </picture>
     </section>
@@ -76,8 +76,8 @@
     <section class="home">
         <div class="fruit">
             <h2>Fruits Selections</h2>
-            <p> Bountiful Foods offers a wide range of fresh fruits straight from its course and as such available to all wo need it.
-                All fruits deleiver are fresh with great amount of appealing look and taste. That is what we aim to do as a company. 
+            <p> Bountiful Foods offers a wide range of fresh fruits straight from its source and as such available to all who need it.
+                All fruits delivered are fresh with great amount of appealing look and taste. That is what we aim to do as a company. 
                 Just tell us what you need.
             </p>
             </div>
@@ -87,9 +87,9 @@
     </section>
     <section class="hero">
         <picture class="hero_pic">
-            <source srcset="images/hero2_small.jpg" media="(max-width:34.99em)">
-            <source srcset="images/hero2_medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
-            <img class="hero-image" src="images/hero2.jpg" alt="Hero2 image">
+            <source class="hero-image"srcset="images/hero-small.jpg" media="(max-width:34.99em)">
+            <source class="hero-image"srcset="images/hero-medium.jpg" media="(min-width:35em) and (max-width:57.99em)">
+            <img class="hero-image" src="images/hero-large.jpg" alt="Hero2 image">
         </picture>
     </section>
     <section class="home">
@@ -98,7 +98,7 @@
         </picture>
         <div class="call">
         <h2>Place an Order</h2>
-        <p>Hosting a weekend picnic or special event? Place an order for pickup on Saturday morning at the calrlsbad Beach Farmers’ Market, or have it delivered within LA and OC for a $25 flat fee. Order must be placed at least 2 days prior to pickup/delivery.</p>
+        <p>Hosting a weekend picnic or special event? Place an order for pickup on Saturday morning at the calrlsbad Beach Farmers’ Market, or have it delivered within California and OC for a $25 flat fee. Order must be placed at least 2 days prior to pickup/delivery.</p>
         <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Place an Order</a>
         </div>
 </section>
@@ -115,11 +115,14 @@
             <p>3 Days weather forecast: <span id="forecast"></span></p>
             <p class="weat">Weather Information from : <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
     </section>
-    <section class="info">
+    <section class="inform">
         <h2>Specialty Information</h2>
         <p>There is nothing more interesting than the feel of our fresh products, So what are you waiting for, just have a taste 😊. we have a lot to offer you</p>
+        <span id="daysBetweenVisits"></span>
     </section>
     </div>
+    <div>
+        <h2> Fruits Gallery</h2>
     <section class="gallery">
         <picture class="myphoto">
           <img src="images/placeholder.jpg" data-src="images/orange.jpg" alt="Oranges">
@@ -130,8 +133,31 @@
           <picture class="myphoto">
             <img src="images/placeholder.jpg" data-src="images/pineapple.jpg" alt="pineapples">
           </picture>
-        
-      </section>
+        </section>
+
+        <section class="gallery">
+            <picture class="myphoto">
+              <img src="images/placeholder.jpg" data-src="images/orange.jpg" alt="Oranges">
+            </picture>
+            <picture class="myphoto">
+                <img src="images/placeholder.jpg" data-src="images/red_apple.jpg" alt="Apples">
+              </picture>
+              <picture class="myphoto">
+                <img src="images/placeholder.jpg" data-src="images/pineapple.jpg" alt="pineapples">
+              </picture>
+            </section>
+            <section class="gallery">
+                <picture class="myphoto">
+                  <img src="images/placeholder.jpg" data-src="images/orange.jpg" alt="Oranges">
+                </picture>
+                <picture class="myphoto">
+                    <img src="images/placeholder.jpg" data-src="images/red_apple.jpg" alt="Apples">
+                  </picture>
+                  <picture class="myphoto">
+                    <img src="images/placeholder.jpg" data-src="images/pineapple.jpg" alt="pineapples">
+                  </picture>
+                </section>
+            </div>
 </main>
 <footer>
         ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
