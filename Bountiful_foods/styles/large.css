@@ -1,59 +1,57 @@
 @media only screen and (min-width: 64em) {
-    /** Header Styling**/
-    header .company {
-        text-align: center;
-        font-size: 90%;
-        padding: 0%;
-      }
-      
-      header .company h1 {
-        margin-bottom: 20px;
-        margin-left: 10px;
-      }
-      .logo{
-        margin-top: 30px;
-      }
-
-  /**Navigation Styling**/
-  #hamburgerBtn {
-    display: none;
+  /** Header Styling**/
+  header .company {
+    text-align: center;
+    font-size: 90%;
+    padding: 0%;
+  }
+  
+  header .company h1 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .logo{
+    width: 150px;
   }
 
-  #primaryNav {
-    display: flex;
-    padding: 0;
-    margin: 5px;
-    border: 0;
-  }
-  #primaryNav li {
-    border: none;
-  }
-  .social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 10%;
-    padding: 5%;
+/**Navigation Styling**/
+#hamburgerBtn {
+display: none;
+}
 
-  }
-  .social a {
-    width: 40px;
-   
-  }
-  .nav {
-    grid-column: 3/4;
-  }
-  nav{
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    justify-content: flex-end;
-    margin-top: 5%;
-  }
+#primaryNav {
+display: flex;
+padding: 0;
+margin: 5px;
+border: 0;
+}
+#primaryNav li {
+border: none;
+}
+.social {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-bottom: 10%;
+padding: 5%;
+
+}
+.social a {
+width: 40px;
+
+}
+.nav {
+grid-column: 3/4;
+}
+nav{
+display: grid;
+grid-column: 2/3;
+grid-row: 1/2;
+justify-content: flex-end;
+margin-top: 12%;
+}
 
   /**Main Styling**/
-
-
   .contact {
     padding: 20px;
     margin: 10px;
@@ -63,29 +61,24 @@
     color: #001524;
     text-decoration: none;
     box-shadow: 1px 1px 1px #12181D;
+    position: absolute;
+    top: 840%;
+    left: 40%;
     padding:15px;
     font-weight: bolder;
     font-family: 'Arvo', serif;
-    position: absolute;
-    top: 30%;
-    left: 40%;
   }
 
   .hero-image{
-    height: 620px;
-    width: 100%;
+    height: 680px;
+    width: 98%;
   }
   
   .home{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 5px;
     padding: 3%;
-  }
-  .fruits{
-    display: block;
-    padding: 10px;
-    margin: 10px;
   }
 
   .home picture{
@@ -94,23 +87,94 @@
     object-fit: cover;
     margin-left: 10px;
   }
-  .call{
-    margin: 5%x;
-    padding-top: 8%;
+  .home picture{
+    height: 400px;
+    width: 1500px;
+    object-fit: cover;
+    margin-left: 10px;
   }
-  .fruit{
-    margin: 5%x;
-    padding-top: 8%;
+  .call{
+    margin: 5%;
+    padding-top: 2%;
+  }
+  .home-sect{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .weather{
+    width: 70%;
+  }
+  .fruits-gala h2{
+    display: block;
+  }
+  .juice-gala{
+    margin: 10px;
+    margin-bottom: 5%;
+  }
+  .galla{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .galla picture{
+    padding: 10px;
+    margin:0;
+    
   }
   .gallery{
     display: flex;
     flex-direction: row;
-    margin-bottom: 5%;
+    margin-bottom: 2px;
   }
   .gallery picture{
     padding: 5px;
     margin: 5px;
   }
+  figcaption{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+  }
 
+  /** Fresh Styling**/
+  div.forms{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
 
-}
+  }
+
+  fieldset.set{
+    margin: 5%;
+    padding: 5%;
+  }
+  label{
+    display: block;
+    margin-bottom: 1rem;
+    color:#c0c0c0;
+    text-align: left;
+    font-family: 'Arvo', serif;
+  }
+  label.new{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      color:#c0c0c0;
+      text-align: left;
+      font-family: 'Arvo', serif;
+    }
+    div.foot{
+      display: flex;
+      flex-direction: column;
+    }
+    .foot img.logo{
+      position: none;
+      left: 44%;
+      
+    }
+    hr{
+      width: 80%;
+    }
+  }

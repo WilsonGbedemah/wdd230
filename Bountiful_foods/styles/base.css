@@ -1,155 +1,154 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap");
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/** Header styling**/
+header .company {
+  text-align: left;
+  font-size: 60%;
+  padding: 5%;
+}
+
+header .company h1 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-shadow: 0 0 2px #FF7D00
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 110px;
+  margin-top: 10px;
+}
+
+header {
+  background-color:#12181D ;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 5px;
+  color: #c0c0c0;
+  border: 1px solid #b2bec3;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 20%;
+}
+
+.social a {
+  width: 30px;
+ 
+}
+
+.social:hover {
+  opacity: 0.7;
+}
+
+/**Hamburger And Navigation Styling**/
+
+#hamburgerBtn {
+  text-align: start;
+  
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#hamburgerBtn {
+  background-color: transparent;
+  border: 1px solid #c0c0c0;
+  font-size: 1.5em;
+  margin-top: 2%;
+  color: #c0c0c0;
+  margin-right: 1%;
+}
+
+#primaryNav {
+  list-style-type: none;
+  margin: 0.2em 2vw;
+  padding: 5px;
+  font-weight: 800;
+  
+}
+
+header ul {
+  display: none;
+}
+header ul.open {
+  display: block;
+  margin-bottom: 2%;
+  font-size: 15px;
+  font-weight: 800;
+  gap: 5px;
+  background-color: #2e0707;
+  width: 95%;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+
+}
+nav{
+  display: grid;
+  grid-column: 1/4;
+}
+
+
+
+header ul li a {
+  color: #c0c0c0;
+}
+
+#primaryNav li a {
+  display: block;
+  padding: 0.8em 2vw;
+  text-decoration: none;
+
+}
+
+#primaryNav li a:hover {
+  font-weight: bold;
+  text-shadow: 0 0 40px #FFECD1;  
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
 body {
     margin: 0 auto;
     display: block;
     text-align: center;
+    background-color: azure;
   }
   
   img {
     max-width: 100%;
     align-items: center;
-    margin-top: auto;
   }
-  img.icon{
-    max-width: 50%;
+  picture:hover{
+    transform: scale(1.1);
+    transition: 1s;
   }
-j
-
-  /** Header styling**/
-
-  header .company {
-    text-align: left;
-    font-size: 60%;
-    padding: 5%;
-  }
-  
-  header .company h1 {
-    margin-bottom: 5px;
-    font-size: 18px;
-    text-shadow: 0 0 2px #FF7D00
-  }
-  .logo_link{
-    max-width: 100%;
-    align-items: center;
-    margin-top: auto;
-  }
-
-  .design {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo-link {
-    width: 100px;
-  }
- 
-  header {
-    background-color:#12181D ;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 5px;
-    color: #c0c0c0;
-    border: 1px solid #b2bec3;
-  }
-
-  .social {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin: 0;
-    padding-right: 50%;
-  }
-  
-  .social a {
-    width: 30px;
-   
-  }
-
-  .social:hover {
-    opacity: 0.7;
-  }
-
-  /**Hamburger And Navigation Styling**/
- 
-  #hamburgerBtn {
-    text-align: end;
-  }
-  .nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  
-  #hamburgerBtn {
-    background-color: transparent;
-    border: 1px solid #c0c0c0;
-    font-size: 1.5em;
-    margin-top: 2%;
-    color: #c0c0c0;
-    margin-right: 1%;
-  }
-  
-  #primaryNav {
-    list-style-type: none;
-    margin: 0.2em 2vw;
-    padding: 0;
-    font-weight: 800;
-  }
-  
-  #primaryNav li a.active {
-    background-color: #abb8c3;
-    color: #000000;
-    border: 0.5px solid #b2bec3;
-  }
-  
-  header ul {
-    display: none;
-  }
-  header ul.open {
-    display: block;
-    border-bottom: 1px solid #001524;
-    margin-bottom: 2%;
-    font-size: 15px;
-    font-weight: 900;
-  }
-  nav{
-    display: grid;
-    grid-column: 1/4;
-  }
-  
-  header ul li a {
-    color: #c0c0c0;
-  }
-  
-  #primaryNav li {
-    border-top: 0.5px solid #c0c0c0;
-  }
-  
-  #primaryNav li a {
-    display: block;
-    padding: 0.8em 2vw;
-    text-decoration: none;
-  
-  }
-  
-  #primaryNav li a:hover {
-    background-color: #2e0707;
-    color: #c0c0c0;
-    border: 0.5px solid #b2bec3;
-  }
-  #hamburgerBtn span:nth-child(1) {
-    display: block;
-  }
-  #hamburgerBtn span:nth-child(2) {
-    display: none;
-  }
-  
-  #hamburgerBtn.open span:nth-child(1) {
-    display: none;
-  }
-  #hamburgerBtn.open span:nth-child(2) {
-    display: block;
-  }
+  .social img{
+    max-width: 30%;
+}  
 
   /**Headings and Paragraph Styles**/
 h1,
@@ -169,7 +168,6 @@ a {
   .contact {
   display: grid;
   grid-column: 1/4;
-  border: 1px solid #b2bec3;
   background-color:#2e0707 ;
   color: #c0c0c0;
   padding: 10px;
@@ -203,11 +201,16 @@ a {
 
   /**section styling**/
   .home1{
+    background-color: #2e0707;
+    color: #c0c0c0;
     display: block;
     padding: 10px;
     margin: 3%;
   }
-  .home1 h2, .fruit h2, .call h2, .weather h2, .info h2{
+  .home1 h2{
+    text-shadow: 0 0 3px #c0c0c0
+  }
+  .fruit h2, .call h2, .weather h2, .info h2{
     text-shadow: 0 0 2px #2e0707
   }
   main p{
@@ -222,9 +225,10 @@ a {
     }
     .home-sect{
       background-color: #2e0707;
-      display: block;
-      padding: 10px;
-      margin: 3%;
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      margin: 2%;
     }
     .fruit{
       margin: 10px;
@@ -236,6 +240,10 @@ a {
       color: #c0c0c0;
       padding: 5%;
       margin: 5%;
+    }
+    img.icon{
+    width: 70%;
+    border-radius: 10px;
     }
     .weat a{
       color: #00d084;
@@ -276,7 +284,10 @@ a {
       padding: 5%;
       margin: 5%;
     }
-    .gallery1, .gallery2, .gallery3{
+    .gallery{
+      display: none;
+    }
+    .fruits-gala h2{
       display: none;
     }
     #daysBetweenVisits {
@@ -289,7 +300,25 @@ a {
       font-family: 'Arvo', serif;
       font-weight: bolder;
     }
-
+    .juice-gala{
+      margin: 10px;
+      margin-bottom: 5%;
+    }
+    .galla{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5%;
+    }
+    .galla picture{
+      padding: 10px;
+      margin:0;
+    }
+    figcaption{
+      font-style: italic;
+      font-size: small;
+      font-weight: bolder;
+      text-align: center;
+    }
 
   /**Fresh Page Styling**/
 main.fresh-container{
@@ -319,7 +348,15 @@ form{
   padding: 4rem;
   border-radius: 1rem;
 }
-
+fieldset{
+  margin: 5%;
+  padding: 5%;
+}
+legend{
+  font-size: 20px;
+  color: #c0c0c0;
+  padding: 5%;
+}
 form label input{
   padding: 1rem;
   margin: 0.5rem 0;
@@ -366,7 +403,7 @@ form label textarea{
   border-radius: 1rem;
 }
 .btn{
-  background-color: #2e0707;
+  background-color: #c0c0c0;
   padding: 10px;
   margin: 2%;
   width: 40%;
@@ -375,16 +412,74 @@ form label textarea{
   border-radius: 5px;
   text-align: center;
   box-shadow: 0 0 10px #c0c0c0;
-  color:#001524;
+  color:#12181D;
   font-size: 25px;
   font-weight: 700;
   font-family: 'Arvo', serif;
 }
+/**About US styling**/
 
+form label.top input, form label.top select, textarea{
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #c0c0c0;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #c0c0c0;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(240, 235, 235, 0.723);
+}
+
+form label.top{
+  text-align: left;
+}
+form label.sbs{
+  display: block;
+  padding: .75rem 0;
+  color: #c0c0c0;
+  font-style: italic;
+}
+.contact-form{
+  margin: 4%;
+  padding: 5px;
+}
+div.talk{
+  color: #c0c0c0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.submitbtn{
+  background-color: #c0c0c0;
+  padding: 10px;
+  margin: 2%;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px #c0c0c0;
+  color:#12181D;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Arvo', serif;
+}
   /** Footer Styling**/
   footer{
     background-color:#12181D;
     color: #c0c0c0;
     padding: 2%;
     border: 1px solid #b2bec3;
+  }
+  div.foot{
+    display: flex;
+    flex-direction: column;
+  }
+  hr{
+    width: 80%;
+  }
+  .foot img.logo{
+    position: relative;
+    left: 40%;
+    
   }

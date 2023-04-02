@@ -7,6 +7,7 @@ function toggleMenu(){
     const x = document.getElementById('hamburgerBtn')
     x.onclick = toggleMenu
 
+
     /**Last modification JS**/
 const year = document.querySelector("#year");
 year.textContent = new Date().getFullYear();

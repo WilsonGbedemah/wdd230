@@ -17,23 +17,22 @@
 </head>
 <body>
     <header>
-        <section class="design">
-            <a  href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/">
-            <img class="logo-link"src="images/bountiful_logo.png" alt="Logo">
+        <section class="head">
+            <img class="logo" src="images/bountiful_logo.png" alt="Logo">
             </a>
         <section class="company">
             <h1>BOUNTIFUL FOODS</h1>
         </section>
     </section>
-    <div class="social">
+    <div class="socials">
         <a href="https://web.facebook.com/?_rdc=1&_rdr" target="Loginpage">
-        <img src="images/facebook.png" alt="Facebook Icon">
+        <img class="icon" src="images/facebook.png" alt="Facebook Icon">
         </a>
         <a href="icons8-twitter-480.png" target="Loginpage">
-            <img src="images/twitter.png" alt="twitter icon">
+            <img class="icon" src="images/twitter.png" alt="twitter icon">
         </a>
-        <a href="https://www.linkedin.com/home" target="LinkedIn homepage">
-        <img src="images/linkedin.png" alt="Linkedin Icon">
+        <a href="https://www.instagram.com/home" target="loginpage">
+        <img class="icon" src="images/instagram.png" alt="instagram icon">
         </a>
     </div>
     <div class="nav">
@@ -41,27 +40,31 @@
     </div>
     <nav>
         <ul id="primaryNav">
-            <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
+            <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
             <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Fresh</a></li>
             <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">About Us</a></li>
         </ul>
     </nav>  
     <div class="contact">
         <h2>Contact Information</h2>
-        <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more information</p>
+        <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more contact information</p>
         <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
     </div> 
     
-    </header>
-
+</header>    
 <main class="fresh-container">
-    <h2>Build Your Own Specialty Drink</h2>
+    <h2>Build Specialty Drink</h2>
+    <form id="fill">
     <div class="forms">
-    <form>
+    <fieldset class="set">
+        <legend>Your Personal Information</legend>
         <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
-        <label class="info">Email*:<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
+        <label class="info">Email*<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
         <label class="info">Telephone Number*<input type="tel" name="phone" required=""></label><br>
-        <label for="Inputelements">  First Element inputs<select name="elementinputs" id="elementinput" required="">
+    </fieldset>
+    <fieldset class="set">
+        <legend>Your Input Elements</legend>
+        <label for="Inputelements">  First Element inputs<select name="fruits" id="elementinput" required="">
               <option value="" disabled="" selected="">Select input Element</option>
               <option value="apple">Apple</option>
               <option value="apricot">Apricot</option>
@@ -104,7 +107,7 @@
               <option value="watermelon">Watermelon</option>
             </select>
           </label>
-          <label for="Inputelements">  Second Element inputs<select name="elementinputs" id="elementinput" required="">
+          <label for="Inputelements">  Second Element inputs<select name="fruits1" id="elementinput" required="">
             <option value="" disabled="" selected="">Select input Element</option>
             <option value="apple">Apple</option>
             <option value="apricot">Apricot</option>
@@ -147,7 +150,7 @@
             <option value="watermelon">Watermelon</option>
           </select>
         </label>
-        <label for="Inputelements">  Third Element inputs<select name="elementinputs" id="elementinput" required="">
+        <label for="Inputelements">  Third Element inputs<select name="fruits2" id="elementinput" required="">
             <option value="" disabled="" selected="">Select input Element</option>
             <option value="apple">Apple</option>
             <option value="apricot">Apricot</option>
@@ -190,19 +193,39 @@
             <option value="watermelon">Watermelon</option>
           </select>
         </label>
-          <label>
-            Special Instructions
-            <textarea name="businessDescription" cols="30" rows="10"></textarea>
+    </fieldset>
+    </div>
+    <fieldset>
+        <legend>Your Instructions</legend>
+        <label>
+            Spacial Instructions
+            <textarea name="instructions" cols="30" rows="10"></textarea>
           </label>
+    </fieldset>
           <input type="submit" value="Submit" class="btn">
     </form>
+    <div>
+        <pre id="output"></pre>
+
     </div>
 </main>
 <footer>
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more contact information</p>
+        <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
+    </div> 
+    <hr>
+    <div class="foot">
+    <img class="logo" src="images/bountiful_logo.png" alt="Logo"></a>
+    <section>
         ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
         <p>Last Modification: <span id="lastmodified"></span></p>
+        </section>
+        </div>
 </footer>
         <script src="scripts/script.js"></script>
+        <script src="scripts/fresh.js"></script>
 </body>
 </html>
 

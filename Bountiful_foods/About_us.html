@@ -17,23 +17,22 @@
 </head>
 <body>
   <header>
-    <section class="design">
-        <a  href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/">
-        <img class="logo-link"src="images/bountiful_logo.png" alt="Logo">
+    <section class="head">
+        <img class="logo" src="images/bountiful_logo.png" alt="Logo">
         </a>
     <section class="company">
         <h1>BOUNTIFUL FOODS</h1>
     </section>
 </section>
-<div class="social">
+<div class="socials">
     <a href="https://web.facebook.com/?_rdc=1&_rdr" target="Loginpage">
-    <img src="images/facebook.png" alt="Facebook Icon">
+    <img class="icon" src="images/facebook.png" alt="Facebook Icon">
     </a>
     <a href="icons8-twitter-480.png" target="Loginpage">
-        <img src="images/twitter.png" alt="twitter icon">
+        <img class="icon" src="images/twitter.png" alt="twitter icon">
     </a>
-    <a href="https://www.linkedin.com/home" target="LinkedIn homepage">
-    <img src="images/linkedin.png" alt="Linkedin Icon">
+    <a href="https://www.instagram.com/home" target="loginpage">
+    <img class="icon" src="images/instagram.png" alt="instagram icon">
     </a>
 </div>
 <div class="nav">
@@ -41,17 +40,11 @@
 </div>
 <nav>
     <ul id="primaryNav">
-        <li><a class="active" href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
+        <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Home.html">Home</a></li>
         <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/Fresh.html">Fresh</a></li>
         <li><a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">About Us</a></li>
     </ul>
 </nav>  
-<div class="contact">
-    <h2>Contact Information</h2>
-    <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more information</p>
-    <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
-</div> 
-
 </header>
 <main class="about-grid">
 <h2>Company History Background</h2>
@@ -120,31 +113,64 @@
   </section>
 </div>
 <hr>
-  <section class="contact">
-    <h2>Contact Us</h2>
-        <h3>Address</h3>
-        <p>3 Bank Road, Nsawam, Ghana</p><br>
-    
-        <h3>Telephone</h3>
-        <p>+(233) 556-427-542</p><br>
-
-        <h3>Office Hours</h3>
-        <p>Working hours are 8:00 am to 5:00 pm GMT</p><br>
-    
-    
-        <h3>Email</h3>
-        <p>afrogbede09@gmail.com</p>
-</section>
-<hr>
-<h2> Location</h2>
-<picture class="myphoto">
-    <img src="images/placeholder.jpg" data-src="images/Tourist.jpg" alt="tourism">
-</picture>
-
+<div class="visit-us">
+  <section>
+      <h2>Contact Us</h2>
+      <hr>
+    <p>
+  Bountiful Foods<br> </p><hr>
+  1321 Butte Street, #100 <br>
+  Carlsbad, California 96001
+  <br>
+  Monday – Saturday: 8:00 a.m. to 4:30 p.m. <br> 
+  <hr>
+  Phone: (512) 478-9383 <br>
+  Email: bountifulfoods@gmail.com
+      <p></p>
+      <a href="https://www.google.com/maps/@15.4599222,-88.0723241,11z" target="_blank">📍 Location Map</a>
+  </section>
+  </div>
+<div class="contact-form">
+<h1>Contact Form</h1>
+<form class="about">
+  <fieldset class="set">
+    <legend>Your Personal Information</legend>
+    <label class="info">First name*<input type="text"  name="fname" required=""></label><br>
+    <label class="info">Last name*<input type="text"  name="fname" required=""></label><br>
+    <label class="info">Email*<input type="email" name="email" placeholder="alphajones@gmail.com" required=""></label><br>
+    <label class="info">Telephone Number*<input type="tel" name="phone" required=""></label><br>
+</fieldset>
+<fieldset>
+  <legend>Contact You</legend>
+  <div class="talk">Which way would you like us to contact you?</div>
+  <label class="sbs"><input type="radio" name="contact" value="text"> Phone Text Message</label>
+  <label class="sbs"><input type="radio" name="contact" value="email"> Email</label>
+</fieldset>
+<fieldset>
+<legend>Question</legend>
+<div class="talk">What are your concerns?</div>
+  <label class="info">
+      <textarea id="description" name="description" rows="3" cols="10"></textarea>
+  </label>
+</fieldset>
+<input type="submit" value="Contact us" class="submitbtn">
+</form>
+</div>
 </main>
 <footer>
-        ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
-        <p>Last Modification: <span id="lastmodified"></span></p>
+  <div class="contact">
+      <h2>Contact Information</h2>
+      <p>Contact Us at Bountifulfoods@gmail.com and on +12345234345. Click below to get more contact information</p>
+      <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
+  </div> 
+  <hr>
+  <div class="foot">
+  <img class="logo" src="images/bountiful_logo.png" alt="Logo"></a>
+  <section>
+      ©<span id="year"></span> | Felix WIlson Gbedemah |  BYU-Idaho | WDD 230
+      <p>Last Modification: <span id="lastmodified"></span></p>
+      </section>
+</div>
 </footer>
         <script src="scripts/script.js"></script>
 

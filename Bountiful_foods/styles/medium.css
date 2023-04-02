@@ -5,6 +5,11 @@
     margin-bottom: 5px;
     font-size: 30px;
   }
+  .logo{
+    width: 130px;
+    margin-top: 10px;
+    padding: 0;
+  }
      /**Main Styling**/
   .contact a{
       margin-right: 45%;
@@ -31,4 +36,14 @@
     width: 100%;
   }
 
+  .gallery{
+    display: none;
+  }
+  .fruits-gala h2{
+    display: none;
+  }
+  .galla{
+    display: none;
+  }
+  
 }
