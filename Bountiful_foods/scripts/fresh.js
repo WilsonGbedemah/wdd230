@@ -4,7 +4,7 @@ async function getfruitsData() {
     const mp = new Map()
     data.forEach((item) => {
         mp.set(item.name.toUpperCase(), {
-            nutitions: item.nutritions
+            nutritions: item.nutritions
         })
     });
 
@@ -24,7 +24,7 @@ productForm.addEventListener('submit', (event) => {
     const firstFruit = data.get('fruits')
     const secondFruit = data.get('fruits1')
     const thirdFruit = data.get('fruits2')
-    const instruct = data.get('instructions')
+    const instructions = data.get('instructions')
 
 
     getfruitsData().then((data) => {
@@ -40,20 +40,20 @@ productForm.addEventListener('submit', (event) => {
             
             'first fruit selected': {
                 name: firstFruit,
-                nutrients: data.get(firstFruit.toUpperCase())
+                'Fruit nutrients': data.get(firstFruit.toUpperCase())
             },
 
             'second fruit selected': {
                 name: secondFruit,
-                nutrients: data.get(secondFruit.toUpperCase())
+                'Fruit nutrients': data.get(secondFruit.toUpperCase())
             },
 
             'third fruit selected': {
                 name: thirdFruit,
-                nutrients: data.get(thirdFruit.toUpperCase())
+                'Fruit nutrients': data.get(thirdFruit.toUpperCase())
             },
 
-            instruct,
+            instructions,
             date: (new Date()).toDateString()
         }
 

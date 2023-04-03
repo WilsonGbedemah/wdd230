@@ -5,133 +5,134 @@
     font-size: 90%;
     padding: 0%;
   }
-  
+
   header .company h1 {
     margin-bottom: 20px;
     margin-left: 10px;
   }
-  .logo{
+  .logo {
     width: 150px;
   }
 
-/**Navigation Styling**/
-#hamburgerBtn {
-display: none;
-}
+  /**Navigation Styling**/
+  #hamburgerBtn {
+    display: none;
+  }
 
-#primaryNav {
-display: flex;
-padding: 0;
-margin: 5px;
-border: 0;
-}
-#primaryNav li {
-border: none;
-}
-.social {
-display: flex;
-align-items: center;
-justify-content: flex-end;
-margin-bottom: 10%;
-padding: 5%;
-
-}
-.social a {
-width: 40px;
-
-}
-.nav {
-grid-column: 3/4;
-}
-nav{
-display: grid;
-grid-column: 2/3;
-grid-row: 1/2;
-justify-content: flex-end;
-margin-top: 12%;
-}
+  #primaryNav {
+    display: flex;
+    padding: 0;
+    margin: 5px;
+    border: 0;
+  }
+  #primaryNav li {
+    border: none;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    padding: 5%;
+  }
+  .social a {
+    width: 40px;
+  }
+  .nav {
+    grid-column: 3/4;
+  }
+  nav {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: flex-end;
+    margin-top: 12%;
+  }
 
   /**Main Styling**/
   .contact {
     padding: 20px;
     margin: 10px;
   }
-  .contact a{
+  .contact a {
     background-color: #c0c0c0;
     color: #001524;
     text-decoration: none;
-    box-shadow: 1px 1px 1px #12181D;
+    box-shadow: 1px 1px 1px #12181d;
     position: absolute;
     top: 840%;
     left: 40%;
-    padding:15px;
+    padding: 15px;
     font-weight: bolder;
-    font-family: 'Arvo', serif;
+    font-family: "Arvo", serif;
   }
 
-  .hero-image{
+  .hero-image {
     height: 680px;
     width: 98%;
   }
-  
-  .home{
+
+  .home {
     display: flex;
     flex-direction: row;
     margin: 5px;
     padding: 3%;
   }
 
-  .home picture{
+  .home picture {
     height: 400px;
     width: 1500px;
     object-fit: cover;
     margin-left: 10px;
   }
-  .home picture{
-    height: 400px;
-    width: 1500px;
-    object-fit: cover;
-    margin-left: 10px;
-  }
-  .call{
+  .call {
     margin: 5%;
     padding-top: 2%;
   }
-  .home-sect{
+  .home-sect {
     display: flex;
     flex-direction: row;
     padding: 0;
   }
-  .weather{
+  .weather {
     width: 70%;
   }
-  .fruits-gala h2{
+  .fruits-gala h2 {
     display: block;
   }
-  .juice-gala{
+  .juice-gala {
     margin: 10px;
     margin-bottom: 5%;
   }
-  .galla{
+  .galla {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
   }
-  .galla picture{
+  .galla picture {
     padding: 10px;
-    margin:0;
-    
+    margin: 0;
   }
-  .gallery{
+
+  .area {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .area picture {
+    padding: 2%;
+    margin-bottom: 10%;
+  }
+  .gallery {
     display: flex;
     flex-direction: row;
     margin-bottom: 2px;
   }
-  .gallery picture{
+  .gallery picture {
     padding: 5px;
     margin: 5px;
   }
-  figcaption{
+  figcaption {
     font-style: italic;
     font-size: medium;
     font-weight: bolder;
@@ -139,42 +140,56 @@ margin-top: 12%;
   }
 
   /** Fresh Styling**/
-  div.forms{
+  div.forms {
     display: flex;
     flex-direction: row;
-    margin-left: 6%;
-
+    margin-left: 7%;
   }
-
-  fieldset.set{
+  fieldset.set {
     margin: 5%;
     padding: 5%;
   }
-  label{
+  label {
     display: block;
     margin-bottom: 1rem;
-    color:#c0c0c0;
+    color: #c0c0c0;
     text-align: left;
-    font-family: 'Arvo', serif;
+    font-family: "Arvo", serif;
   }
-  label.new{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 1rem;
-      color:#c0c0c0;
-      text-align: left;
-      font-family: 'Arvo', serif;
-    }
-    div.foot{
-      display: flex;
-      flex-direction: column;
-    }
-    .foot img.logo{
-      position: none;
-      left: 44%;
-      
-    }
-    hr{
-      width: 80%;
-    }
+  label.new {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    color: #c0c0c0;
+    text-align: left;
+    font-family: "Arvo", serif;
   }
+
+  /** About Us Styling**/
+  div.talk {
+    text-align: left;
+  }
+  label.info textarea{
+    width: 90%;
+    margin-left: 5%;
+  
+  }
+
+  section.bount-info{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  div.foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot img.logo {
+    position: none;
+    left: 44%;
+  }
+  hr {
+    width: 80%;
+  }
+}
