@@ -1,21 +1,19 @@
-/*Local Storage JS*/
-const form = document.getElementById("fresh-form");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+// Get the form element
+const form = document.getElementById('fill');
 
-  // Get the number of specialty drinks from localStorage and display it on the information card
-  const numDrinks = localStorage.getItem("numSpecialtyDrinks") || 0;
+// Add a submit event listener to the form
+form.addEventListener('submit', function(event) {
+  // Get the current user's email from the form
+  const email = form.elements.email.value;
 
-  document.getElementById("num-drinks").textContent = numDrinks;
+  // Get the current user's previous number of specialty drinks from local storage, or default to 0
+  let numDrinks = parseInt(localStorage.getItem(email)) || 0;
 
+  // Get the number of specialty drinks that the user just submitted
+  const numNewDrinks = parseInt(form.elements.fruits.value) + parseInt(form.elements.fruits1.value);
 
-  // Increment the number of specialty drinks by one
-  numDrinks++;
-
-  // Store the new number of specialty drinks in localStorage
-  localStorage.setItem("numSpecialtyDrinks", numDrinks);
-
-  // Display a message to the user indicating that their drink submission was successful
-  alert("Thank you for submitting your specialty drink!");
+  // Update the total number of specialty drinks for the user
+  numDrinks += numNewDrinks;
+  localStorage.setItem(email, numDrinks);
 });
