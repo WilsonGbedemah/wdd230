@@ -1,38 +1,30 @@
-// select HTML elements in the documnet
 const currentTemp = document.querySelector("#current-temp");
-const humidity = document.querySelector("#humidity"); 
-const weatherIcon = document.querySelector("#weather-icon");
-const captionDesc = document.querySelector("figcaption");
+    const humidity = document.querySelector("#humidity"); 
+    const weatherIcon = document.querySelector("#weather-icon");
+    const captionDesc = document.querySelector("#caption");
 
-//calling weather API URL
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=cd716e3725143ae8cd86b17c41e03a2f';
+    // Call the weather API to get current weather data
+    const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=cd716e3725143ae8cd86b17c41e03a2f";
+    fetch(weatherUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        currentTemp.textContent = data.main.temp.toFixed(0) + "°F";
+        humidity.textContent = data.main.humidity + "%";
+        weatherIcon.setAttribute("src", "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
+        captionDesc.textContent = data.weather[0].description;
+      })
+      .catch((error) => console.log(error));
 
-async function apiFetch() {
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data); // this is for testing the call
-        displayResults(data);
-      } else {
-          throw Error(await response.text());
-      }
-    } catch (error) {
-        console.log(error);
-    }
-  }
-  
-  apiFetch();
-
-  function  displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    humidity.innerHTML = `<strong>${weatherData.main.humidity}</strong>`;
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
-  
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
-
-  }
-  
+    // Call the three-day forecast API to get forecast data
+    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=Carlsbad,California&units=imperial&cnt=3&appid=cd716e3725143ae8cd86b17c41e03a2f";
+    fetch(forecastUrl)
+      .then((response) => response.json())
+      .then((data) => {
+        const forecast = data.list;
+        forecast.forEach((day, index) => {
+          const temp = day.temp.day.toFixed(0) + "°F";
+          const condition = day.weather[0].description;
+          document.getElementById(`day${index+1}`).textContent = `${temp}, ${condition}`;
+        });
+      })
+      .catch((error) => console.log(error));

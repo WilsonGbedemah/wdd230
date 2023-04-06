@@ -33,6 +33,9 @@
     height: 400px;
     width: 100%;
   }
+  .juice-gala h2{
+    display: none;
+  }
 
   .gallery {
     display: none;

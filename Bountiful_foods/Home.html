@@ -118,24 +118,29 @@
         </section>
         <div class="home-sect">
             <section class="weather">
-                <h2>Weather</h2>
-                <h3>Temperature for Carlsbad California <span id="current-temp"></span> &deg;F</h3>
-                <figure>
-                    <img class="weat-icon" src="" alt="" id="weather-icon" />
-                    <figcaption></figcaption>
-                </figure>
-                <p>Humidity: <span id="humidity"></span>%</p>
-
-                <p>3 Days weather forecast: <span id="forecast"></span></p>
-                <p class="weat">Weather Information from : <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+                <h2>Carlsbad Weather</h2>
+                <p>Current temperature: <span id="current-temp"></span></p>
+                <p>Condition: <img id="weather-icon" src="" alt=""><figcaption id="caption"></figcaption></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <h2>Three-day forecast</h2>
+                <ul>
+                  <li><span id="day1"></span></li>
+                  <li><span id="day2"></span></li>
+                  <li><span id="day3"></span></li>
+                </ul>
+                    <br>
+                    <p class="weat">Weather Information from : <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+                
             </section>
             <section class="inform">
-                <h2>Specialty Information Card</h2>
+                <h2>Information Card</h2>
                 <p>There is nothing more interesting than the feel of our fresh products, So what are you waiting for,
                     just have a taste 😊. we have a lot to offer you.
-                    The total number of specialty drinks submitted by user, will display here.
                 </p>
-                <span id="daysBetweenVisits"></span>
+                <div class="card">
+                    <h4>Specialty Drinks Submitted</h4>
+                    <p>You have submitted <span id="num-drinks"></span> specialty drinks!</p>
+                  </div>
             </section>
         </div>
         <div class="fruits-gala">
@@ -255,7 +260,8 @@
             </p>
             <a href="https://wilsongbedemah.github.io/wdd230/Bountiful_foods/About_Us.html">Info</a>
         </div>
-        <hr>
+        <hr class="footin">
+        <br>
         <div class="foot">
             <img class="logo" src="images/bountiful_logo.png" alt="Logo"></a>
             <section>
@@ -267,6 +273,7 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/card.js"></script>
 
 </body>
 

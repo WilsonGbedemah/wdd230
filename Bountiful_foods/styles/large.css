@@ -1,4 +1,5 @@
 @media only screen and (min-width: 64em) {
+
   /** Header Styling**/
   header .company {
     text-align: center;
@@ -10,6 +11,7 @@
     margin-bottom: 20px;
     margin-left: 10px;
   }
+
   .logo {
     width: 150px;
   }
@@ -25,9 +27,11 @@
     margin: 5px;
     border: 0;
   }
+
   #primaryNav li {
     border: none;
   }
+
   .social {
     display: flex;
     align-items: center;
@@ -35,12 +39,15 @@
     margin-bottom: 10%;
     padding: 5%;
   }
+
   .social a {
     width: 40px;
   }
+
   .nav {
     grid-column: 3/4;
   }
+
   nav {
     display: grid;
     grid-column: 2/3;
@@ -54,14 +61,12 @@
     padding: 20px;
     margin: 10px;
   }
+
   .contact a {
     background-color: #c0c0c0;
     color: #001524;
     text-decoration: none;
     box-shadow: 1px 1px 1px #12181d;
-    position: absolute;
-    top: 840%;
-    left: 40%;
     padding: 15px;
     font-weight: bolder;
     font-family: "Arvo", serif;
@@ -85,30 +90,37 @@
     object-fit: cover;
     margin-left: 10px;
   }
+
   .call {
     margin: 5%;
     padding-top: 2%;
   }
+
   .home-sect {
     display: flex;
     flex-direction: row;
     padding: 0;
   }
+
   .weather {
     width: 70%;
   }
+
   .fruits-gala h2 {
     display: block;
   }
+
   .juice-gala {
     margin: 10px;
     margin-bottom: 5%;
   }
+
   .galla {
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
   }
+
   .galla picture {
     padding: 10px;
     margin: 0;
@@ -119,19 +131,23 @@
     flex-direction: row;
     margin-bottom: 5%;
   }
+
   .area picture {
     padding: 2%;
     margin-bottom: 10%;
   }
+
   .gallery {
     display: flex;
     flex-direction: row;
     margin-bottom: 2px;
   }
+
   .gallery picture {
     padding: 5px;
     margin: 5px;
   }
+
   figcaption {
     font-style: italic;
     font-size: medium;
@@ -145,10 +161,12 @@
     flex-direction: row;
     margin-left: 7%;
   }
+
   fieldset.set {
     margin: 5%;
     padding: 5%;
   }
+
   label {
     display: block;
     margin-bottom: 1rem;
@@ -156,6 +174,7 @@
     text-align: left;
     font-family: "Arvo", serif;
   }
+
   label.new {
     display: flex;
     flex-direction: column;
@@ -165,17 +184,35 @@
     font-family: "Arvo", serif;
   }
 
+  form label select {
+    width: 100%;
+  }
+
+  form label textarea {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  form label input {
+    width: 100%;
+  }
+
   /** About Us Styling**/
   div.talk {
     text-align: left;
   }
-  label.info textarea{
+
+  label.info textarea {
     width: 90%;
     margin-left: 5%;
-  
   }
 
-  section.bount-info{
+  img.map {
+    width: 5%;
+    margin-left: 48%;
+  }
+
+  section.bount-info {
     display: block;
     margin: 0;
     padding: 0;
@@ -185,10 +222,12 @@
     display: flex;
     flex-direction: column;
   }
+
   .foot img.logo {
     position: none;
     left: 44%;
   }
+
   hr {
     width: 80%;
   }

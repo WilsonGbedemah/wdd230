@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap");
 
+
 /** Header styling**/
 header .company {
   text-align: left;
@@ -238,6 +239,9 @@ main p {
   padding: 5%;
   margin: 5%;
 }
+.weather li span{
+  color: #c0c0c0;
+}
 img.icon {
   width: 50%;
 }
@@ -253,6 +257,7 @@ img.icon {
 }
 
 .call {
+  display:inline-block;
   margin: 5px;
   padding-top: 5px;
 }
@@ -364,6 +369,7 @@ form label input {
   margin: 0.5rem 0;
   border: 1px solid #fff;
   background-color: #c0c0c0;
+  max-width: 100%;
 }
 
 form label input:focus {
@@ -395,6 +401,8 @@ form label textarea {
   border: 1px solid #001524;
   background-color: #c0c0c0;
   color: #001524;
+  max-width: 100%;
+  margin-left: 5px;
 }
 .btn {
   background-color: #c0c0c0;
@@ -409,6 +417,16 @@ form label textarea {
   font-size: 25px;
   font-weight: 700;
   font-family: "Arvo", serif;
+}
+#output{
+  background-color: #2e0707;
+  color: #c0c0c0;
+  margin-top: 10px;
+  padding: 10px;
+}
+#output h2{
+  color: #c0c0c0;
+  font-weight: bolder;
 }
 
 /**About US styling**/
@@ -481,15 +499,16 @@ div.visit-us {
 footer {
   background-color: #12181d;
   color: #c0c0c0;
-  padding: 2%;
+  padding: 5px;
   border: 1px solid #b2bec3;
 }
 div.foot {
   display: flex;
   flex-direction: column;
 }
-hr {
+hr.footin{
   width: 80%;
+  font-size: large;
 }
 .foot img.logo {
   position: relative;
