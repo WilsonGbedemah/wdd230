@@ -195,6 +195,13 @@ a {
 }
 
 /**section styling**/
+.hero h2{
+  background-color: #2e0707;
+  padding: 1%;
+  color: #c0c0c0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .home1 {
   background-color: #2e0707;
   color: #c0c0c0;

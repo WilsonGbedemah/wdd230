@@ -9,6 +9,7 @@
     padding: 0;
   }
   /**Main Styling**/
+
   .contact a {
     margin-right: 45%;
     margin-left: 45%;
@@ -30,8 +31,12 @@
   }
 
   .hero-image {
-    height: 400px;
+    height: 550px;
     width: 100%;
+  }
+  .hero h2{
+    margin-left: 20%;
+    margin-right: 20%;
   }
   .juice-gala h2{
     display: none;
