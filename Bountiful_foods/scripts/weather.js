@@ -4,7 +4,7 @@ const currentTemp = document.querySelector("#current-temp");
     const captionDesc = document.querySelector("#caption");
 
     // Call the weather API to get current weather data
-    const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=cbb75e3ad4b983fa8c50040912f45114";
+    const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=imperial&appid=cd716e3725143ae8cd86b17c41e03a2f";
     fetch(weatherUrl)
       .then((response) => response.json())
       .then((data) => {
@@ -16,7 +16,7 @@ const currentTemp = document.querySelector("#current-temp");
       .catch((error) => console.log(error));
 
     // Call the three-day forecast API to get forecast data
-    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=Carlsbad,California&units=imperial&cnt=3&appid=cbb75e3ad4b983fa8c50040912f45114";
+    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=Carlsbad&cnt=3&appid=cd716e3725143ae8cd86b17c41e03a2f";
     fetch(forecastUrl)
       .then((response) => response.json())
       .then((data) => {
