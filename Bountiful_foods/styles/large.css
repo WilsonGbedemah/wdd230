@@ -32,17 +32,17 @@
     border: none;
   }
 
-  .social {
+  .socials {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 10%;
-    padding: 5%;
+    padding: 3%;
+  }
+  .socials img {
+    width: 80%;
   }
 
-  .social a {
-    width: 40px;
-  }
 
   .nav {
     grid-column: 3/4;
@@ -73,8 +73,8 @@
   }
 
   .hero-image {
-    height: 680px;
-    width: 98%;
+    height: 750px;
+    width: 100%;
   }
 
   .home {
@@ -89,6 +89,15 @@
     width: 1500px;
     object-fit: cover;
     margin-left: 10px;
+  }
+  .home p{
+    font-size: 20px;
+  }
+  .home h2{
+    font-size: 30px;
+  }
+  .home1 p{
+    font-size: 20px;
   }
 
   .call {
@@ -147,13 +156,10 @@
     padding: 5px;
     margin: 5px;
   }
-
-  figcaption {
-    font-style: italic;
-    font-size: medium;
-    font-weight: bolder;
-    text-align: center;
+  .juice-gala h2{
+    display: block;
   }
+
 
   /** Fresh Styling**/
   div.forms {
@@ -201,10 +207,23 @@
   div.talk {
     text-align: left;
   }
+  div.forms{
+    margin-left: 15%;
+  }
 
   label.info textarea {
     width: 90%;
     margin-left: 5%;
+  }
+  .area {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+  }
+  .area picture {
+    padding: 0px;
+    margin:5px;
+    gap: 5px;
   }
 
   img.map {

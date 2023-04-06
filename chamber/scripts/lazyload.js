@@ -26,6 +26,8 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
     });
   }
+
+  
   /*Number of User Visits*/
 let daysBetweenVisits = Number(window.localStorage.getItem("last-visit-ls"));
 

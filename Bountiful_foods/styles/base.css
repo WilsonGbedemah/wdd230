@@ -41,10 +41,12 @@ header {
   align-items: center;
   margin-top: 5px;
   margin-left: 20%;
+  margin: 0;
+  padding: 0;
 }
 
-.social a {
-  width: 30px;
+.socials img.icons {
+  max-width: 60%;
 }
 
 .social:hover {
@@ -141,9 +143,7 @@ picture:hover {
   transform: scale(1.1);
   transition: 1s;
 }
-.social img {
-  max-width: 30%;
-}
+
 
 /**Headings and Paragraph Styles**/
 h1,
@@ -322,12 +322,6 @@ img.icon {
   padding: 10px;
   margin: 5px;
 }
-figcaption {
-  font-style: italic;
-  font-size: small;
-  font-weight: bolder;
-  text-align: center;
-}
 
 /**Fresh Page Styling**/
 main.fresh-container {
@@ -419,17 +413,21 @@ form label textarea {
   font-family: "Arvo", serif;
 }
 #output{
-  background-color: #2e0707;
-  color: #c0c0c0;
+  color: #12181d;
   margin-top: 10px;
   padding: 10px;
 }
 #output h2{
-  color: #c0c0c0;
+  color: #2e0707;
   font-weight: bolder;
 }
 
 /**About US styling**/
+
+main.about-grid{
+  display: block;
+
+}
 form label.top input,
 form label.top select,
 textarea {
