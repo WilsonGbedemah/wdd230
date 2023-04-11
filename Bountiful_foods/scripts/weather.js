@@ -37,7 +37,7 @@ async function apiFetch() {
   }
 
     // Call the three-day forecast API to get forecast data
-    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?q=Carlsbad&cnt=3&appid=cd716e3725143ae8cd86b17c41e03a2f";
+    const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=cd716e3725143ae8cd86b17c41e03a2f';
     fetch(forecastUrl)
       .then((response) => response.json())
       .then((data) => {
